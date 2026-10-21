@@ -1,0 +1,85 @@
+?container=new schema
+	columns_count=1
+?block=
+	column=1
+?vertical_choicebox=question1
+?answer=first
+?content=first title
+	font_style=bold
+&answer
+?answer=second
+?content=second title
+	font_style=bold
+&answer
+?answer=third
+?write_in=third write_in
+&answer
+?answer=fourth
+?write_in=fourth write_in
+&answer
+&vertical_choicebox
+&block
+&container
+
+?container=new schema empty
+	columns_count=1
+?block=
+	column=1
+?vertical_choicebox=question2
+?answer=fifth
+?content=fifth title
+	font_style=bold
+&answer
+?answer=sixth
+?content=sixth title
+	font_style=bold
+&answer
+?answer=seventh
+?write_in=seventh write_in
+&answer
+?answer=eighth
+?write_in=eighth write_in
+&answer
+&vertical_choicebox
+&block
+&container
+
+?container=legacy schema
+	columns_count=1
+?block=
+	column=1
+?vertical_choicebox=question3
+?answer=ninth
+?content=ninth title
+	font_style=bold
+&answer
+?answer=tenth
+?content=tenth title
+	font_style=bold
+&answer
+?answer=write-in
+?write_in=question3
+&answer
+&vertical_choicebox
+&block
+&container
+
+?container=legacy schema
+	columns_count=1
+?block=
+	column=1
+?vertical_choicebox=question4
+?answer=eleventh
+?content=eleventh title
+	font_style=bold
+&answer
+?answer=twelfth
+?content=twelfth title
+	font_style=bold
+&answer
+?answer=write-in
+?write_in=question4
+&answer
+&vertical_choicebox
+&block
+&container

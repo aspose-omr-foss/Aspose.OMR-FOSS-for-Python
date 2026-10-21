@@ -1,0 +1,281 @@
+?container=Ballot
+	columns_count=3
+?block=First
+	column=1
+?paragraph=Official
+	type=multiple
+?image=emblem.png
+	x=540
+	height=350
+	width=350
+?content=Official Ballot Mock General Election Choctaw 2020
+	font_style=Bold
+	font_size=12
+?content=State of Mississippi Choctaw County August 26, 2020
+	font_style=Regular
+	font_size=9
+&paragraph
+?paragraph=Instructions
+	type=multiple
+?image=instructions.png
+	x=530
+	height=180
+	width=325
+?content=Instructions
+	font_style=Bold
+	font_size=12
+?content=To vote, use a black pen to completely fill in the oval to the left of your choice.
+	font_style=Regular
+	font_size=9	
+&paragraph
+?paragraph=Write-In
+	type=multiple
+?image=write-in.png
+	x=530
+	height=140
+	width=350
+?content=To Vote for a Write-In
+	font_style=Bold
+	font_size=12
+?content=To vote for a person not on the ballot, completely fill in the oval to the left of the "write-in" line and print the person's name on the line.
+	font_style=Regular
+	font_size=9
+&paragraph
+?paragraph=Correct
+?content=To correct a mistake
+	font_style=Bold
+	font_size=12
+?content=To make a correction, please ask for a replacement ballot. Any marks other than filled ovals may cause your ballot not be counted.
+	font_style=Regular
+	font_size=9
+&paragraph
+&block
+?block=President
+	column=2
+	border=Square
+	border_size=5
+	border_color=Black
+?paragraph=President
+?content=United States
+	font_style=Bold
+	font_size=8
+?content=President
+	font_style=Bold
+	font_size=12
+?content=Vote for 1
+	font_style=Regular
+	font_size=9	
+&paragraph
+?vertical_choicebox=President
+?answer=Joe Biden
+?content=Presidential Electors for Joe Biden for President and Kamala Harris for Vice President
+	font_style=Bold
+	font_size=10
+?content=Democrat
+	font_size=10
+&answer
+?answer=Donald J. Trump
+?content=Presidential Electors for Donald J. Trump for President and Michael R. Pence for Vice President
+	font_style=Bold
+	font_size=10
+?content=Republican
+	font_size=10
+&answer
+?answer=Phil Collins
+?content=Presidential Electors for Phil Collins for President and Bill Parker for Vice President
+	font_style=Bold
+	font_size=10
+?content=Independent
+	font_size=10
+&answer
+?answer=write-in
+?write_in=President
+&answer
+&vertical_choicebox 	
+&block
+?block=Senate
+	column=2
+	border=Square
+	border_size=5
+	border_color=Black
+?paragraph=Senate
+	column=2
+?content=United States
+	font_style=Bold
+	font_size=8
+?content=Senate
+	font_style=Bold
+	font_size=12
+?content=Vote for 1
+	font_style=Regular
+	font_size=9
+&paragraph
+?vertical_choicebox=Senate
+?answer=Mike Espy
+?content=Mike Espy
+	font_style=Bold
+	font_size=10
+?content=Democrat
+	font_size=10
+&answer
+?answer=Cindy Hyde-Smith
+?content=Cindy Hyde-Smith
+	font_style=Bold
+	font_size=10
+?content=Republican
+	font_size=10
+&answer
+?answer=Jimmy Edwards
+?content=Jimmy Edwards
+	font_style=Bold
+	font_size=10
+?content=Libertarian
+	font_size=10
+&answer
+?answer=write-in
+?write_in=Senate
+&answer
+&vertical_choicebox
+&block
+?block=1st Congressional District
+	column=3
+	border=Square
+	border_size=5
+	border_color=Black
+?paragraph=1st Congressional District
+	column=3
+?content=US House Of Representatives
+	font_style=Bold
+	font_size=8
+?content=1st Congressional District
+	font_style=Bold
+	font_size=12
+?content=Vote for 1
+	font_style=Regular
+	font_size=9
+&paragraph
+?vertical_choicebox=1st Congressional District
+?answer=Antonia Eliason
+?content=Antonia Eliason
+	font_style=Bold
+	font_size=10
+?content=Democrat
+	font_size=10
+&answer
+?answer=Trent Kelly
+?content=Trent Kelly
+	font_style=Bold
+	font_size=10
+?content=Republican
+	font_size=10
+&answer
+?answer=write-in
+?write_in=1st Congressional District
+&answer
+&vertical_choicebox
+&block
+?block=Supreme Court District
+	column=3
+	border=Square
+	border_size=5
+	border_color=Black
+?paragraph=Supreme Court District
+	column=3
+?content=Northern District
+	font_style=Bold
+	font_size=8
+?content=Supreme Court District 3(Northern) Position 3
+	font_style=Bold
+	font_size=12
+?content=Vote for 1
+	font_style=Regular
+	font_size=9
+&paragraph
+?vertical_choicebox=Supreme Court District 3
+?answer=Dennis Coleman
+?content=Josiah Dennis Coleman
+	font_style=Bold
+	font_size=10
+?content=Nonpartisan
+	font_size=10
+&answer
+?answer=Percy Lynchard
+?content=Percy L. Lynchard
+	font_style=Bold
+	font_size=10
+?content=Nonpartisan
+	font_size=10
+&answer
+?answer=write-in
+?write_in=Supreme Court District 3
+&answer
+&vertical_choicebox
+&block
+?block=Election Commissioner 04
+	column=3
+	border=Square
+	border_size=5
+	border_color=Black
+?paragraph=Election Commissioner 04
+	column=3
+?content=Election Commissioner 04
+	font_style=Bold
+	font_size=8
+?content=Election Commissioner 04
+	font_style=Bold
+	font_size=12
+?content=Vote for 1
+	font_style=Regular
+	font_size=9
+&paragraph
+?vertical_choicebox=Election Commissioner 04
+?answer=Willie Mae Guillory
+?content=Willie Mae Guillory
+	font_style=Bold
+	font_size=10
+&answer
+?answer=Lewis Wright
+?content=Lewis Wright
+	font_style=Bold
+	font_size=10
+&answer
+?answer=write-in
+?write_in=Election Commissioner 04
+&answer
+&vertical_choicebox
+&block
+&container
+?container=Footer
+	columns_count=3
+	type=footer
+?block=1
+	column=1
+?paragraph=1
+?content=Precinct East Weir Style 1
+	font_style=Bold
+	font_size=12
+?content=Mock General Election Choctaw 2020
+	font_style=Regular
+	font_size=8
+&paragraph
+&block
+?block=2
+	column=2
+?paragraph=2
+?content=Choctaw County, State of Mississippi
+	font_style=Regular
+	font_size=8
+&paragraph
+&block
+?block=3
+	column=3
+?paragraph=3
+?content=Page 1
+	font_style=Bold
+	font_size=12
+?content=August 26, 2020
+	font_style=Regular
+	font_size=8
+&paragraph
+&block
+&container

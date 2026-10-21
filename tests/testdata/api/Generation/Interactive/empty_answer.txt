@@ -1,0 +1,103 @@
+?container=
+	column_count=1
+?block=
+	column=1
+	border=square
+?vertical_choicebox=Straight Ticket Selection
+	top_padding=0
+?paragraph=
+	type=inline
+	vertical_align=top
+?image=republic.png
+	width=100
+	height=100
+?answer=REPUBLICAN
+	bubble_position=right
+	bubble_type=square
+?content=REPUBLICAN
+	font_size=12
+&answer
+&paragraph
+?content=___________________________________________________________________________________________
+	font_size=3
+?paragraph=
+	type=inline
+	vertical_align=top
+?image=democrat.png
+	width=100
+	height=100
+?answer=DEMOCRAT
+	bubble_position=right
+	bubble_type=square
+?content=DEMOCRAT
+	font_size=12
+&answer
+&paragraph
+?content=___________________________________________________________________________________________
+	font_size=3
+?paragraph=
+	type=inline
+	vertical_align=top
+?image=libertarian.png
+	width=100
+	height=100
+?answer=LIBERRTARIAN
+	bubble_position=right
+	bubble_type=square
+?content=LIBERTARIAN
+	font_size=12
+&answer
+&paragraph
+?content=___________________________________________________________________________________________
+	font_size=3
+?paragraph=
+	type=inline
+	vertical_align=top
+?image=republic.png
+	width=100
+	height=100
+?answer=LIBERTARIAN
+	bubble_position=right
+	bubble_type=square
+	selectable=false
+?content=LIBERTARIAN
+	font_size=12
+&answer
+&paragraph
+?content=___________________________________________________________________________________________
+	font_size=3
+&vertical_choicebox
+&block
+?block=
+	column=1
+	border=square
+?vertical_choicebox=Straight Ticket Selection
+	top_padding=0
+?answer=REPUBLICAN
+	bubble_position=right
+	bubble_type=square
+?content=REPUBLICAN
+	font_size=12
+&answer
+?answer=DEMOCRAT
+	bubble_position=right
+	bubble_type=square
+?content=DEMOCRAT
+	font_size=12
+&answer
+?answer=LIBERTARIAN
+	bubble_position=right
+	bubble_type=square
+?content=LIBERTARIAN
+	font_size=12
+&answer
+?answer=LIBERTARIAN
+	bubble_position=right
+	bubble_type=square
+	selectable=false
+?content=LIBERTARIAN
+	font_size=12
+&answer
+&vertical_choicebox
+&block
+&container

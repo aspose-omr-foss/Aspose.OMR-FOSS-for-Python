@@ -1,0 +1,14 @@
+?positioned_block=
+	x=400
+	y=400
+	width=800
+?content=title
+	align=center
+	font_style=bold, italic
+	font_size=17
+?empty_line=
+	height=120
+?numeric_grid=
+	extra_column= (1/4) (1/2) (3/4)
+	bubble_size=extralarge
+&positioned_block

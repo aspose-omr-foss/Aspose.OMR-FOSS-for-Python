@@ -1,0 +1,351 @@
+?container=header
+	columns_count=1
+?block=1
+	column=1
+	border=rounded
+	border_size=5
+	border_color=Black
+?paragraph=1
+?content=It is a crime to falsify this ballot or to violate Indiana Election laws, IC 3-11-2-7
+	font_style=Underline
+	font_size=10
+	align=center
+?content=Tippecanoe County
+	font_size=12
+	font_style=Bold
+	align=center
+?content=Certification General Election
+	font_size=12
+	align=center
+?content=November 8, 2022
+	font_size=12
+	align=center
+?content=To vote for the candidate of your choice, completely darken the oval at the RIGHT of the candidate's name.
+	align=left
+	font_style=Bold
+	font_size=9
+?paragraph=
+	type=inline
+	vertical_align=center
+?content=Darken the oval completely like this
+	font_style=bold
+	font_size=9
+?image=example.png
+	width=50
+	height=50
+?content= .
+	font_style=bold
+	font_size=9
+&paragraph
+?content=Use a black pen.  A write-in vote will NOT be counted unless the vote is for a DECLARED write-in candidate.  You must darken the oval to the left of the name you have written in or your vote will NOT be counted.
+	align=left
+	font_size=9
+&paragraph
+&block
+&container
+?container=1-st
+	columns_count=3
+	block_bottom_margin=10
+	block_top_padding=0
+	block_right_margin=20
+?block=StraightParty
+	column=1
+	border=rounded
+	border_size=5
+	border_color=Black	
+?content=Straight Ticket Selection
+	font_size=10
+	font_style=bold
+	align=center
+?content=Vote For Not More Than ONE(1)
+	font_size=8
+	align=center
+	font_style=bold
+?content=___________________________________________________________________________________________
+	font_size=3
+?vertical_choicebox=Straight Ticket Selection
+	top_padding=0
+?paragraph=
+	type=inline
+	vertical_align=top
+?image=republic.png
+	width=100
+	height=100
+?answer=REPUBLICAN
+	bubble_position=right
+	bubble_type=square
+?content=REPUBLICAN
+	font_size=12
+&answer
+&paragraph
+?content=___________________________________________________________________________________________
+	font_size=3
+?paragraph=
+	type=inline
+	vertical_align=top
+?image=democrat.png
+	width=100
+	height=100
+?answer=DEMOCRAT
+	bubble_position=right
+	bubble_type=square
+?content=DEMOCRAT
+	font_size=12
+&answer
+&paragraph
+?content=___________________________________________________________________________________________
+	font_size=3
+?paragraph=
+	type=inline
+	vertical_align=top
+?image=LIBERTARIAN.png
+	width=100
+	height=100
+?answer=LIBERTARIAN
+	bubble_position=right
+	bubble_type=square
+?content=LIBERTARIAN
+	font_size=12
+&answer
+&paragraph
+?content=___________________________________________________________________________________________
+	font_size=3
+&vertical_choicebox
+&block
+?block=Federal offices
+	column=1
+	border=rounded
+	border_color=black
+	border_size=5
+?content=FEDERAL OFFICES
+	font_size=12
+	align=center
+&block
+
+?block=President
+	column=2
+	border=rounded
+	border_size=5
+	border_color=Black
+?content=President
+	font_size=10
+	font_style=bold
+	align=center
+?content=Vote For Not More Than ONE(1)
+	font_style=bold
+	font_size=8
+	align=center
+?content=________________________________________________________________________________
+	font_size=3
+	align=center
+?vertical_choicebox=President
+	top_padding=-10
+?container=
+	columns_proportions=60%-40%	
+	block_bottom_margin=0
+	block_top_padding=0
+	block_right_margin=0
+?block=
+	column=1
+?content=JOHN DOE
+	font_size=12
+?content=___________________________________________________________
+	font_size=3
+?content=JIM SMITH
+	font_size=12
+?content=___________________________________________________________
+	font_size=3
+?content=CHERYL SHUBERT
+	font_size=12
+?content=___________________________________________________________
+	font_size=3
+&block
+?block=
+	column=2
+?answer=JOHN DOE
+	bubble_position=right
+	bubble_type=square
+?content=REP
+	font_size=10
+	align=right
+&answer
+&block
+?block=
+	column=2
+?answer=JIM SMITH
+	bubble_position=right
+	bubble_type=square
+?content=DEM
+	font_size=10
+	align=right
+&answer
+&block
+?block=
+	column=2
+?answer=CHERYL SHUBERT
+	bubble_position=right
+	bubble_type=square
+?content=LIB
+	font_size=10
+	align=right
+&answer
+&block
+&container
+?container=
+	columns_proportions=100%
+?block=
+	column=1
+?answer=WriteInPresident
+	bubble_position=right
+	bubble_type=square
+?write_in=WriteInPresident
+	font_size=6	
+	hint=WRITE IN FOR ONE (1) TEAM
+&answer
+&block
+&container
+&vertical_choicebox 	
+&block
+?block=School Board
+	column=3
+	border=Rounded
+	border_size=5
+	border_color=Black
+?paragraph=School Board
+?content=School Board
+	font_size=10
+	align=center
+	font_style=bold
+?content=Vote For Not More Than FOUR(4)
+	font_size=8
+	align=center
+	font_style=bold
+?content=________________________________________________________________________________
+	font_size=3
+	align=center	
+&paragraph
+?vertical_choicebox=School Board
+	top_padding=0
+?answer=JACK DANIELS
+	bubble_position=right
+	bubble_type=square
+?content=JACK DANIELS
+	font_size=12
+?content=________________________________________________________________________
+	font_size=3
+&answer
+?answer=TONY ROMA
+	bubble_position=right
+	bubble_type=square
+?content=TONY ROMA
+	font_size=12
+?content=________________________________________________________________________
+	font_size=3
+&answer
+?answer=JOHN JONES
+	bubble_position=right
+	bubble_type=square
+?content=JOHN JONES
+	font_size=12
+?content=________________________________________________________________________
+	font_style=Regular
+	font_size=3
+&answer
+?answer=JOE SHMO
+	bubble_position=right
+	bubble_type=square
+?content=JOE SHMO
+	font_size=12
+?content=________________________________________________________________________
+	font_style=Regular
+	font_size=3
+&answer
+?answer=LARRY DAVIS
+	bubble_position=right
+	bubble_type=square
+?content=LARRY DAVIS
+	font_size=12
+?content=________________________________________________________________________
+	font_size=3
+&answer
+?answer=SAM MICHAELS
+	bubble_position=right
+	bubble_type=square
+?content=SAM MICHAELS
+	font_size=12
+?content=________________________________________________________________________
+	font_size=3
+&answer
+?answer=BOB JONES
+	bubble_position=right
+	bubble_type=square
+?content=BOB JONES
+	font_size=12
+?content=________________________________________________________________________
+	font_size=3
+&answer
+?answer=CHERYL SHUBERT
+	bubble_position=right
+	bubble_type=square
+?content=CHERYL SHUBERT
+	font_size=12
+?content=________________________________________________________________________
+	font_size=3
+&answer
+?answer=STACY COLLINS
+	bubble_position=right
+	bubble_type=square
+?content=STACY COLLINS
+	font_size=12
+?content=________________________________________________________________________
+	font_size=3
+&answer
+?answer=NORM WILKINS
+	bubble_position=right
+	bubble_type=square
+?content=NORM WILKINS
+	font_size=12
+?content=________________________________________________________________________
+	font_size=3
+&answer
+&vertical_choicebox
+&block
+&container
+?container=Footer
+	columns_count=3
+	type=footer
+?block=1
+	column=1
+?paragraph=1
+?content=Precinct Miller 1 / Activation City 1
+	font_size=8
+	align=center
+?empty_line=
+	height=10
+?content=Page 1
+	font_style=Bold
+	font_size=14
+	align=center
+?empty_line=
+	height=100
+&paragraph
+&block
+?block=2
+	column=2
+?paragraph=2
+?content=VOTE BOTH SIDES
+	font_size=16
+	font_style=Bold
+	align=center
+&paragraph
+&block
+?block=
+	column=3
+?barcode=PrecActPage
+	value=0001001001
+	height=160
+	codetext=true
+	align=right
+&block
+&container
+

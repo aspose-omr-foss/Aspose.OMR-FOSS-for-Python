@@ -1,0 +1,22 @@
+?text_input=default
+	length=5
+	input_type=numbers
+	
+?text_input=small
+	length=5
+	input_type=numbers	
+	cell_size=small
+
+?text_input=extralarge
+	length=5
+	input_type=letters	
+	cell_size=extralarge
+	
+?positioned_block=
+	x=500
+	y=1500
+?text_input=normal
+	length=5
+	input_type=letters	
+	cell_size=extralarge
+&positioned_block

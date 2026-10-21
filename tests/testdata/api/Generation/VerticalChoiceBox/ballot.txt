@@ -1,0 +1,109 @@
+?container=main columns_count
+	columns_count=3
+?block=
+	column=1
+	border=square
+?vertical_choicebox=President and Vice president
+?container=
+	columns_count=2
+?block=
+	column=2
+?answer=John McCain and Sarah Palin
+	bubble_position=right
+	bubble_type=square
+?content=REP
+	font_size=8
+	align=right
+&answer
+&block
+?block=
+	column=1
+?content=John McCain
+	font_style=Bold
+	font_size=10
+	align=left
+?content=Sarah Palin
+	font_style=Bold
+	font_size=10
+	align=left
+&block
+&container
+
+?container=
+	columns_count=2
+?block=
+	column=2
+?answer=Barack Obama and Joe Biden
+	bubble_position=right
+	bubble_type=square
+?content=DEM
+	font_size=8
+	align=right
+&answer
+&block
+?block=
+	column=1
+?content=Barack Obama
+	font_style=Bold
+	font_size=10
+	align=left
+?content=Joe Biden
+	font_style=Bold
+	font_size=10
+	align=left
+&block
+&container
+
+
+?container=
+	columns_count=2
+?block=
+	column=2
+?answer=Bob Barr and Wayne A. Root
+	bubble_position=right
+	bubble_type=square
+?content=LIB
+	font_size=8
+	align=right
+&answer
+&block
+?block=
+	column=1
+?content=Bob Barr
+	font_style=Bold
+	font_size=10
+	align=left
+?content=Wayne A. Root
+	font_style=Bold
+	font_size=10
+	align=left
+&block
+&container
+
+&vertical_choicebox 	
+&block
+&container
+
+?container=
+	columns_count=1
+?block=
+	column=1
+	border=square
+?paragraph=Elements aligned along after each other. Element align property is ignored
+	type=inline
+	vertical_align=center
+?content=super long string on the left
+	align=right
+	font_size=8
+?image=logo.png
+	width=300
+	height=300
+	align=right
+?content=super big string on the right
+	align=right
+	font_size=25
+?content=super long string that does not fit on existing line
+	align=right
+&paragraph
+&block
+&container

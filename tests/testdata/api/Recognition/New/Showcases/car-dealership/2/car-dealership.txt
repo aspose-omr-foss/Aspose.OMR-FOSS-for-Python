@@ -1,0 +1,379 @@
+?text=AmazeCar Customer Satisfaction Survey
+	font_style=bold
+	font_size=18
+	align=center
+?image=logo.jpg
+	width=200
+	height=200
+	align=left
+	y=100
+	x=278
+?container=description
+	columns_count=1
+?block=
+	column=1
+?content=Thank you for your purchase! We want your experience to be Perfect! Please help us be more Amazing by answering some question about your purchase.
+	font_style=Italic
+&block
+&container
+?container=about yourself_header
+	columns_proportions=100%
+	block_bottom_margin=0
+	block_top_padding=0
+?block=
+	column=1
+	border=none
+?content=Please tell us a bit about yourself...
+	font_style=bold
+	font_size=14
+	align=center
+&block
+&container
+?container=about yourself_content
+	columns_count=3
+	block_bottom_margin=0
+	block_top_padding=0
+	block_right_margin=0
+?block=
+	column=1
+	border=square
+?content=Gender:
+	font_style=bold
+	font_size=12
+?vertical_choicebox=Gender
+?answer=Female
+?content=Female
+&answer
+?answer=Male
+?content=Male
+&answer
+?answer=Other(specify)
+?content=Other(specify)
+?write_in=Gender
+&answer
+&vertical_choicebox
+?empty_line=
+	height=21
+&block
+?block=
+	column=2
+	border=square
+?content=Age Group:
+	font_style=bold
+	font_size=12
+?vertical_choicebox=Age Group
+?answer=18-21
+?content=18-21
+&answer
+?answer=21-30
+?content=21-30
+&answer
+?answer=31-45
+?content=31-45
+&answer
+?answer=46-60
+?content=46-60
+&answer
+?answer=>60
+?content=>60
+&answer
+?answer=21-30
+?content=21-30
+&answer
+&vertical_choicebox
+?empty_line=
+	height=23
+&block
+?block=
+	column=3
+	border=square
+?content=Income Level:
+	font_style=bold
+	font_size=12
+?vertical_choicebox=Gender
+?answer=<$50K
+?content=<$50K
+&answer
+?answer=$50-$100K
+?content=$50-$100K
+&answer
+?answer=$100-$150K
+?content=$100-$150K
+&answer
+?answer=>$150K
+?content=>$150K
+&answer
+&vertical_choicebox
+?empty_line=
+	height=177
+&block
+&container
+?container=salesperson_header
+	columns_count=1
+	block_bottom_margin=0
+	block_top_padding=0
+?block=
+	column=1
+	border=none
+?content=Please rate your SALESPERSON on the following
+	font_style=bold
+	font_size=12
+	align=center
+&block
+&container
+?container=salesperson_content
+	columns_count=4
+	block_bottom_margin=0
+	block_top_padding=0
+	block_right_margin=0
+?block=
+	column=1
+	border=square
+?content=The manner in which you were greeted
+	font_style=bold
+	font_size=10
+?vertical_choicebox=The manner in which you were greeted
+?answer=Fantastic!
+?content=Fantastic!
+&answer
+?answer=Excellent
+?content=Excellent
+&answer
+?answer=Satisfactory
+?content=Satisfactory
+&answer
+?answer=Mediocre
+?content=Mediocre
+&answer
+?answer=Negative
+?content=Negative
+&answer
+&vertical_choicebox
+?empty_line=
+	height=57
+&block
+?block=
+	column=2
+	border=square
+?content=Sincerity and honesty in dealing with you
+	font_style=bold
+	font_size=10
+?vertical_choicebox=Sincerity and honesty in dealing with you
+?answer=Fantastic!
+?content=Fantastic!
+&answer
+?answer=Excellent
+?content=Excellent
+&answer
+?answer=Satisfactory
+?content=Satisfactory
+&answer
+?answer=Mediocre
+?content=Mediocre
+&answer
+?answer=Negative
+?content=Negative
+&answer
+&vertical_choicebox
+?empty_line=
+	height=57
+&block
+?block=
+	column=3
+	border=square
+?content=Consideration of your time
+	font_style=bold
+	font_size=10
+?vertical_choicebox=Consideration of your time
+?answer=Fantastic!
+?content=Fantastic!
+&answer
+?answer=Excellent
+?content=Excellent
+&answer
+?answer=Satisfactory
+?content=Satisfactory
+&answer
+?answer=Mediocre
+?content=Mediocre
+&answer
+?answer=Negative
+?content=Negative
+&answer
+&vertical_choicebox
+?empty_line=
+	height=57
+&block
+?block=
+	column=4
+	border=square
+?content=Ability to listen, understand and answer your questions
+	font_style=bold
+	font_size=10
+?vertical_choicebox=Ability to listen, understand and answer your questions
+?answer=Fantastic!
+?content=Fantastic!
+&answer
+?answer=Excellent
+?content=Excellent
+&answer
+?answer=Satisfactory
+?content=Satisfactory
+&answer
+?answer=Mediocre
+?content=Mediocre
+&answer
+?answer=Negative
+?content=Negative
+&answer
+&vertical_choicebox
+&block
+&container
+?container=salesteam_header
+	columns_count=1
+	block_bottom_margin=0
+	block_top_padding=0
+?block=
+	column=1
+	border=none
+?content=Please rate our SALES TEAM on the following
+	font_style=bold
+	font_size=12
+	align=center
+&block
+&container
+?container=salesteam_content
+	columns_count=4
+	block_bottom_margin=0
+	block_top_padding=0
+	block_right_margin=0
+?block=
+	column=1
+	border=square
+?content=The vehicle price and/or payments were discussed in a thorough manner
+	font_style=bold
+	font_size=10
+?vertical_choicebox=The vehicle price and/or payments were discussed in a thorough manner
+?answer=Fantastic!
+?content=Fantastic!
+&answer
+?answer=Excellent
+?content=Excellent
+&answer
+?answer=Satisfactory
+?content=Satisfactory
+&answer
+?answer=Mediocre
+?content=Mediocre
+&answer
+?answer=Negative
+?content=Negative
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=2
+	border=square
+?content=Explanation of warranty coverage
+	font_style=bold
+	font_size=10
+?vertical_choicebox=Explanation of warranty coverage
+?answer=Fantastic!
+?content=Fantastic!
+&answer
+?answer=Excellent
+?content=Excellent
+&answer
+?answer=Satisfactory
+?content=Satisfactory
+&answer
+?answer=Mediocre
+?content=Mediocre
+&answer
+?answer=Negative
+?content=Negative
+&answer
+&vertical_choicebox
+?empty_line=
+	height=57
+&block
+?block=
+	column=3
+	border=square
+?content=The professional manner in which you were treated
+	font_style=bold
+	font_size=10
+?vertical_choicebox=The professional manner in which you were treated
+?answer=Fantastic!
+?content=Fantastic!
+&answer
+?answer=Excellent
+?content=Excellent
+&answer
+?answer=Satisfactory
+?content=Satisfactory
+&answer
+?answer=Mediocre
+?content=Mediocre
+&answer
+?answer=Negative
+?content=Negative
+&answer
+&vertical_choicebox
+?empty_line=
+	height=57
+&block
+?block=
+	column=4
+	border=square
+?content=Fulfilled all commitments made to you
+	font_style=bold
+	font_size=10
+?vertical_choicebox=Fulfilled all commitments made to you
+?answer=Fantastic!
+?content=Fantastic!
+&answer
+?answer=Excellent
+?content=Excellent
+&answer
+?answer=Satisfactory
+?content=Satisfactory
+&answer
+?answer=Mediocre
+?content=Mediocre
+&answer
+?answer=Negative
+?content=Negative
+&answer
+&vertical_choicebox
+?empty_line=
+	height=57
+&block
+&container
+?container=other_header
+	columns_count=1
+	block_bottom_margin=0
+	block_top_padding=0
+?block=
+	column=1
+	border=none
+?content=More about the buying experience
+	font_style=bold
+	font_size=12
+	align=center
+&block
+&container
+#If you have contacted out store by phone, how satisfied are you with the way your call was handled?
+	()Fantastic! ()Excellent ()Satisfactory ()Mediocre ()Negative
+?container=
+	columns_count=1
+?block=
+	column=1	
+?content=If you overall experience was unsatisfactory - leave your contact information. We'll make it up to you!
+?write_in=contact_information
+&block
+&container
+?barcode=test_id
+	codetext=true
+	value=15478977
+	barcode_type=Code32

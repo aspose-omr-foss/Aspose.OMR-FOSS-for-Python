@@ -1,0 +1,70 @@
+?page=1
+
+
+
+?answer_sheet=MainQuestions1
+	elements_count=50
+	columns_count=5
+
+
+
+?barcode=Test1
+	value=CodeTextTrue1
+	height=300
+	codetext=true
+	
+?barcode=Test2
+	value=CodeTextFalse1
+	height=300
+	codetext=false
+
+?barcode=Test#
+	value=CodeTextDefault1
+	height=300
+&page
+?page=2
+
+
+?answer_sheet=MainQuestions2
+	elements_count=50
+	columns_count=5
+
+
+
+?barcode=Test1
+	value=CodeTextTrue2
+	height=300
+	codetext=true
+	
+?barcode=Test2
+	value=CodeTextFalse2
+	height=300
+	codetext=false
+
+?barcode=Test#
+	value=CodeTextDefault2
+	height=300
+&page
+?page=3
+
+
+?answer_sheet=MainQuestions3
+	elements_count=50
+	columns_count=5
+
+
+
+?barcode=Test1
+	value=CodeTextTrue3
+	height=300
+	codetext=true
+	
+?barcode=Test2
+	value=CodeTextFalse3
+	height=300
+	codetext=false
+
+?barcode=Test#
+	value=CodeTextDefault3
+	height=300
+&page

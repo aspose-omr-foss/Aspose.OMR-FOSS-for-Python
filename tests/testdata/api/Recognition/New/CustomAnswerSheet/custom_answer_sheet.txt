@@ -1,0 +1,41 @@
+?container=1
+?block=2
+?custom_answer_sheet=60 questions
+	section_border=square
+	amount=60
+	columns_count=4	
+	row_proportions=20%-50%-30%
+?header=123
+?column=QNo.
+	font_size=6
+	font_style=bold
+	align=center
+?column=Bubbles
+	font_size=6
+	font_style=bold
+	align=center
+?column=text
+	font_size=6
+	font_style=bold
+	align=center
+&header
+?custom_row=row_%index%
+?content=%index%
+	font_size=6
+	align=center
+?bubble_array=b_%index%
+	answers_list=(A)(B)(C)(D)
+	bubble_size=extrasmall
+	font_size=4
+?content=text_%index%
+	font_size=6
+	align=center
+&custom_row
+&custom_answer_sheet
+&block
+?block=3
+?answer_sheet=2
+	answers_count=4
+	answers_list=(A)(B)(C)(D)
+&block
+&container

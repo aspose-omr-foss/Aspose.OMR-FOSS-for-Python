@@ -1,0 +1,70 @@
+?container=
+	columns_count=5
+?block=
+	column=1
+	border=square
+	border_color=red
+	border_size=10
+?answer_sheet=MainQuestions
+	elements_count=1000
+	columns_count=5
+&block
+?block=
+	column=3
+	border=square
+	border_color=green
+	border_size=10
+?answer_sheet=MainQuestions
+	elements_count=50
+	columns_count=50
+&block
+?block=
+	column=5
+	border=square
+	border_color=blue
+	border_size=10
+?grid=ID
+	sections_count=8
+&block
+&container
+?container=
+	columns_count=1
+?block=
+	column=1
+	border=square
+	border_color=green
+	border_size=10
+?custom_answer_sheet=60 questions
+	section_border=square
+	amount=60
+	columns_count=4	
+	row_proportions=20%-50%-30%
+?header=123
+?column=QNo.
+	font_size=6
+	font_style=bold
+	align=center
+?column=Bubbles
+	font_size=6
+	font_style=bold
+	align=center
+?column=text
+	font_size=6
+	font_style=bold
+	align=center
+&header
+?custom_row=row_%index%
+?content=%index%
+	font_size=6
+	align=center
+?bubble_array=b_%index%
+	answers_list=(A)(B)(C)(D)
+	bubble_size=extrasmall
+	font_size=4
+?content=text_%index%
+	font_size=6
+	align=center
+&custom_row
+&custom_answer_sheet
+&block
+&container

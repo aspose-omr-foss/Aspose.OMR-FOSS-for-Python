@@ -1,0 +1,82 @@
+?container=
+	columns_count=3
+?block=
+	column=1
+?content=default
+	font_size=20
+&block
+
+?empty_line=
+	height=100
+
+?block=
+	column=2
+	border=square
+?content=square
+	font_size=20
+&block
+
+?empty_line=
+	height=100
+
+?block=
+	column=3
+	border=rounded
+?content=rounded
+	font_size=20
+&block
+
+?empty_line=
+	height=100
+
+?block=
+	column=2
+	border=square
+	border_top_style=none
+	border_bottom_style=10 red
+?content=partial square
+	font_size=20
+&block
+
+?empty_line=
+	height=100
+
+?block=
+	column=3
+	border=rounded
+	border_top_style=none
+	border_bottom_style=10 red
+?content=partial rounded
+	font_size=20
+&block
+
+?empty_line=
+	height=100
+
+?block=
+	column=2
+	border=square
+	border_right_style=10 blue
+	border_left_style=10 red
+?content=partial square 2
+	font_size=20
+&block
+
+?empty_line=
+	height=100
+
+?block=
+	column=3
+	border=rounded
+	border_right_style=10 blue
+	border_left_style=10 red
+?content=partial rounded 2
+	font_size=20
+&block
+
+?empty_line=
+	height=100
+
+&container
+
+

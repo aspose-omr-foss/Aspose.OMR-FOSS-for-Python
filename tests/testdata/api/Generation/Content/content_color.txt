@@ -1,0 +1,26 @@
+?paragraph=
+?content=RED BOLD CONTENT 13
+	font_style=bold
+	font_size=13
+	color=red
+?content=Default content
+?content=Blue Italic Content 8
+	font_style=italic
+	font_size=8
+	color=blue
+&paragraph
+
+?paragraph=
+?content=RED bold CELLS 13
+	content_type=Cells
+	font_style=bold
+	font_size=13
+	color=red
+&paragraph
+
+?paragraph=
+?content=default cells
+	content_type=Cells
+	font_style=bold
+	font_size=13
+&paragraph

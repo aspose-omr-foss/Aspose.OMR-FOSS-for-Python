@@ -1,0 +1,109 @@
+?image=logo.jpg
+	width=200
+	height=200
+	x=1169
+	y=100
+?text=Aspose University 
+	font_style=bold
+	font_size=16
+	align=center
+?empty_line=
+	height=25
+?container=instructions
+	columns_count=2
+?block=
+	column=1
+	border=rounded
+	border_color=darkorange
+?content=Instructions
+	align=center
+	font_style=bold
+	font_size=12
+?empty_line=height
+	height=50
+?content=Please fill circle completely, as shown in example:
+?image=example.png
+	width=700
+	height=280
+	align=left
+&block
+?block=
+	column=2
+	border=rounded
+	border_color=darkorange
+?content=Alumni Questionnaire
+	font_size=bold
+	font_size=14
+	align=center
+?empty_line=
+	height=150
+?barcode=test_id
+	codetext=true
+	value=15478977
+	barcode_type=Code32
+?empty_line=
+	height=125
+&block
+&container
+
+#Gender:
+	() Female () Male 
+
+#Major at Graduation(mark all that apply):
+	() Biology           () Botany      () Drama
+	() Education       () French   () General
+	() History            () Drama    () Journalism
+	() Mathematics () Physics  () Psychology
+
+#Type of Major:
+	() Single () Dual () Double () Other
+
+#Decade of Graduation:
+	() 1950 () 1960 () 1970 () 1980
+	() 1990	() 2000 () 2010 () 2020
+	
+#Please specify year in decade of Graduation:
+	(0) (1) (2) (3) (4) (5) (6) (7) (8) (9)
+
+#Rank in group:
+	() 75-100% () 50-75% () 25-50% () 0-25%
+
+?text=Employment
+	align=left
+	font_style=bold
+	font_size=12
+
+?checkbox=Have you been employed since graduating?
+	bubble_size=extrasmall
+	font_size=10
+	hide_name=true
+?content=Have you been employed since graduating?
+	font_style=italic
+	font_size=10
+&checkbox
+?checkbox=Were you able to find a job related to your major?
+	bubble_size=extrasmall
+	font_size=10
+	hide_name=true
+?content=Were you able to find a job related to your major?
+	font_style=italic
+	font_size=10
+&checkbox
+?checkbox=Are you happy you chose this major?
+	bubble_size=extrasmall
+	font_size=10
+	hide_name=true
+?content=Are you happy you chose this major?
+	font_style=italic
+	font_size=10
+&checkbox
+?checkbox=Did your coursework prepare you for this job?
+	bubble_size=extrasmall
+	font_size=10
+	hide_name=true
+?content=Did your coursework prepare you for this job?
+	font_style=italic
+	font_size=10
+&checkbox
+?empty_line=
+	height=150

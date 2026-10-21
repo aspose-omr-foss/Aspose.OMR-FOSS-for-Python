@@ -1,0 +1,38 @@
+?grid=ID1
+	sections_count=6
+	options_count=6
+	x=200
+	y=100
+	
+?grid=ID2
+	sections_count=6
+	options_count=6
+	x=900
+	y=100
+
+?grid=ID3
+	sections_count=6
+	options_count=6
+	x=1600
+	y=100
+	
+?grid=ID4
+	sections_count=6
+	options_count=6
+	orientation=vertical
+	x=200
+	y=800
+	
+?grid=ID5
+	sections_count=6
+	options_count=6
+	orientation=vertical
+	x=900
+	y=800
+
+?grid=ID6
+	sections_count=6
+	options_count=6
+	orientation=vertical
+	x=1600
+	y=800

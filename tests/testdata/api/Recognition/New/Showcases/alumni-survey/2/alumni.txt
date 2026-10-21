@@ -1,0 +1,185 @@
+?image=logo.jpg
+	width=200
+	height=200
+	x=1169
+	y=100
+?text=Aspose University 
+	font_style=bold
+	font_size=16
+	align=center
+?text=Alumni Questionnaire
+	font_size=bold
+	font_size=14
+	align=center
+?container=instructions
+	columns_count=2
+?block=
+	column=2
+	border=rounded
+	border_color=red
+?content=Instructions
+	align=center
+	font_style=bold
+	font_size=12
+?content=Please fill circle completely, as shown in example:
+?image=example.png
+	width=700
+	height=280
+	align=left
+&block
+?block=
+	column=1
+	border=none
+?content=1. Gender
+	font_style=bold
+	font_size=12
+?vertical_choicebox=Gender
+?answer=Female
+?content=Female
+&answer
+?answer=Male
+?content=Male
+&answer
+?answer=Other(specify)
+?content=Other(specify)
+?write_in=Gender
+&answer
+&vertical_choicebox
+&block
+&container
+?container=2-3
+	columns_count=3
+?block=
+	column=1
+	border=none
+?content=2. Major at Graduation(mark all that apply)
+	font_style=bold
+	font_size=12
+?vertical_choicebox=Major at Graduation
+?answer=Biology
+?content=Biology
+&answer
+?answer=Botany
+?content=Botany
+&answer
+?answer=Drama
+?content=Drama
+&answer
+?answer=Education
+?content=Education
+&answer
+?answer=French
+?content=French
+&answer
+?answer=General
+?content=General
+&answer
+?answer=History
+?content=History
+&answer
+?answer=Drama
+?content=Drama
+&answer
+?answer=Journalism
+?content=Journalism
+&answer
+?answer=Mathematics
+?content=Mathematics
+&answer
+?answer=Physics
+?content=Physics
+&answer
+?answer=Psychology
+?content=Psychology
+&answer
+?answer=Spanish
+?content=Spanish
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=2
+	border=none
+?content=3. Year of Graduation
+	font_style=bold
+	font_size=12
+?composite_grid=Year
+	columns_count=4
+	header_type=square
+	orientation=Horizontal
+	values=(0) (1) (2) (3) (4) (5) (6) (7) (8) (9)
+&block
+?block=
+	column=3
+?content=4. What was your overall GPA?
+	font_style=bold
+	font_size=12
+?composite_grid=GPA
+	columns_count=3
+	header_type=square
+	orientation=Horizontal
+	values=(0) (1) (2) (3) (4) (5) (6) (7) (8) (9)
+&block
+?block=
+	column=1
+?content=5. Type of major:
+	font_style=bold
+	font_size=12
+?vertical_choicebox=Type of Major
+?answer=Single
+?content=Single
+&answer
+?answer=Dual
+?content=Dual
+&answer
+?answer=Double
+?content=Double
+&answer
+?answer=Other
+?content=Other
+?write_in=Type of Major
+&answer
+&vertical_choicebox
+&block
+&container
+?text=Employment
+	align=left
+	font_style=bold
+	font_size=12
+
+?checkbox=Have you been employed since graduating?
+	bubble_size=extrasmall
+	font_size=10
+	hide_name=true
+?content=Have you been employed since graduating?
+	font_style=italic
+	font_size=10
+&checkbox
+?checkbox=Were you able to find a job related to your major?
+	bubble_size=extrasmall
+	font_size=10
+	hide_name=true
+?content=Were you able to find a job related to your major?
+	font_style=italic
+	font_size=10
+&checkbox
+?checkbox=Are you happy you chose this major?
+	bubble_size=extrasmall
+	font_size=10
+	hide_name=true
+?content=Are you happy you chose this major?
+	font_style=italic
+	font_size=10
+&checkbox
+?checkbox=Did your coursework prepare you for this job?
+	bubble_size=extrasmall
+	font_size=10
+	hide_name=true
+?content=Did your coursework prepare you for this job?
+	font_style=italic
+	font_size=10
+&checkbox
+?barcode=test_id
+	codetext=true
+	value=15478977
+	barcode_type=Code32

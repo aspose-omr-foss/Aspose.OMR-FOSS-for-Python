@@ -1,0 +1,18 @@
+?container=
+	columns_count=1
+?block=
+	column=1
+?content=small text(4)
+	font_size=4
+?content=small text(4)
+	font_size=4
+?content=SUPER BIG TEXT(40)
+	font_size=40
+?content=SUPER BIG TEXT(40)
+	font_size=40
+?content=small text(4)
+	font_size=4
+?content=small text(4)
+	font_size=4
+&block
+&container

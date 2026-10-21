@@ -1,0 +1,20 @@
+?grid=ID1
+	sections_count=7
+	options_count=7
+	alignment=center
+	x=-100
+	y=-50
+	
+?grid=ID2
+	sections_count=7
+	options_count=7
+	alignment=center
+	x=-333
+	y=low
+
+?grid=ID3
+	sections_count=7
+	options_count=7
+	alignment=center
+	y=0.125
+	x=333,666

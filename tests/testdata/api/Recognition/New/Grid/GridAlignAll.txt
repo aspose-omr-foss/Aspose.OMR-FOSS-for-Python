@@ -1,0 +1,17 @@
+?grid=ID1
+	sections_count=8
+	options_count=6
+	align=left
+	
+?grid=ID2
+	sections_count=5
+	options_count=7
+	align=center
+	
+?grid=ID3
+	sections_count=3
+	options_count=9
+	align=right
+	
+	
+	

@@ -1,0 +1,36 @@
+?container=
+	columns_count=2
+?block=
+	column=1
+	border=square
+?content=Super long line that will fit whole length of the block to see of there is any empty space between two block columns
+	font_size=14
+&block
+?block=
+	column=2
+	border=square
+#What is Aspose.OMR main function?
+	() OCR () Capture human-marked data
+	() There is no main function () Enhance images
+#Can Aspose.OMR process not only scans, but also photos?
+	() Short1 () Short2 () Short3 () Short4 
+	() Short5 () Short6 () Short7 () Short8 () Short9
+#Aspose.OMR is available on any platform, because it is:
+	() Cross-platform code () Cloud service
+#Aspose.OMR works with any kind of OMR forms: tests, exams, questionnaires, surveys, etc.
+	() Yes, indeed! () No
+#Excellent recognition results can be achieved only for filled bubbles at least for:
+	() 40% () 60% () 75% () 98%
+#Does Aspose.OMR support bubbles mapping to any key names?
+	() Super long option that will use whole line
+	() No () Partially () Long option that have to be moved to the next line () Another long option that have to moved to the next line
+	() Short () Short
+#Do you have to mark up every question on the page?
+	(Yes) Yes, that will help a lot! (No) No
+#Rate your preference from 0 to 9 with "0" being preference towards performance 
+  and "9" being preference towards flexibility.
+	(0) (1) (2) (3) (4) (5) (6) (7) (8) (9)
+#I found aspose omr to be a useful tool. (5 - strongly agree, 1 - strongly disagree)
+	(5) (4) (3) (2) (1)
+&block
+&container

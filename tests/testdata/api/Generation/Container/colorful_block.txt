@@ -1,0 +1,23 @@
+?container=
+	columns_count=3
+?block=white on pink
+	column=1
+	border=square
+	border_color=red
+	background_color=Teal
+?content=White Text
+	color=white
+&block
+?block=default
+	column=2
+?content=Default Text
+&block
+?block=black on white
+	column=3
+	border=square
+	border_color=lime
+	background_color=black
+?content=White on Black text
+	color=white
+&block
+&container

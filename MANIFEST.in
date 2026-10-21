@@ -1,0 +1,14 @@
+# Source-distribution contents.
+#
+# The wheel already contains exactly the importable package (the `omr*`
+# packages selected in pyproject.toml); this file only shapes the sdist.
+#
+# setuptools' default sdist template pulls in top-level `tests/test*.py`
+# but NOT their conftest.py, private helpers, or the large ported test
+# corpus under tests/testdata/ -- i.e. a partial, un-runnable test tree.
+# The test suite and its ~1.8k-file corpus are development-only, so drop
+# the whole tree from the sdist rather than ship it incomplete.
+prune tests
+
+# LICENSE and README.md are included automatically (license-files +
+# the readme entry in pyproject.toml); no further includes are needed.

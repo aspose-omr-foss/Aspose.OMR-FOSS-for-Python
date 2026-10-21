@@ -1,0 +1,77 @@
+# ---------------------------------------------------------------------------
+# Sample OMR text markup (supported Layer 0-2 core elements only).
+# Pass this file to OmrEngine.Generate(...). '#' lines are comments.
+# Attribute lines MUST begin with a real TAB character.
+# ---------------------------------------------------------------------------
+
+?text=Aspose High School - Final Exam
+	font_style=bold
+	font_size=22
+	align=center
+
+# ---- Student identification row: two columns ----
+?container=student-id
+	columns_count=2
+	block_bottom_margin=0
+
+# Left column: boxed name / date fields (pure layout, not recognized)
+?block=
+	column=1
+	border=square
+?content=Name:________________________________________
+	font_size=12
+?empty_line=
+	height=30
+?content=Month / Day / Year
+	align=center
+?content=  /  /
+	content_type=cells
+	align=center
+&block
+
+# Right column: machine-readable 8-digit student-ID grid
+?block=
+	column=2
+# Default orientation (horizontal) = each digit is a column of 0-9 bubbles.
+?grid=StudentID
+	sections_count=8
+	options_count=10
+	bubble_size=normal
+	header_type=square
+&block
+&container
+
+?empty_line=
+	height=40
+
+# ---- Multiple-choice section: 10 questions, 4 options (A-D), two columns ----
+# Recognition returns MainQuestions1 .. MainQuestions10, each "" or "A".."D".
+?answer_sheet=MainQuestions
+	elements_count=10
+	answers_count=4
+	columns_count=2
+	start_id=1
+	bubble_size=normal
+	vertical_margin=10
+	answers_list=(A)(B)(C)(D)
+
+?empty_line=
+	height=30
+
+# ---- A single stand-alone question authored as a choicebox ----
+?choicebox=11. Which planet is the Red Planet?
+	display_number=false
+?option=Mars
+	bubble_value=A
+?option=Venus
+	bubble_value=B
+?option=Jupiter
+	bubble_value=C
+&choicebox
+
+# ---- A consent checkbox group (any mark counts; low fill threshold) ----
+?checkbox=I confirm that:
+	threshold=3
+?content=the answers above are my own work
+?content=I have read the exam rules
+&checkbox

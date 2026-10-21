@@ -1,0 +1,20 @@
+?grid=ID1
+	sections_count=6
+	options_count=6
+	underlines=true
+	
+?grid=ID2
+	sections_count=6
+	options_count=6
+	underlines=false
+	
+?grid=ID3
+	sections_count=6
+	options_count=6
+	underlines=invalid
+	
+?grid=ID4
+	sections_count=6
+	options_count=6
+	bubble_type=square
+	

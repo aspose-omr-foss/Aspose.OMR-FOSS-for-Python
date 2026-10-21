@@ -1,0 +1,101 @@
+?container=1
+?block=2
+	border=rounded
+?custom_answer_sheet=60 questions
+	section_border=square
+	amount=60
+	columns_count=4	
+	row_proportions=20%-50%-30%
+	border=rounded
+?header=123
+?column=QNo.
+	font_size=6
+	font_style=bold
+	align=center
+?column=Bubbles
+	font_size=6
+	font_style=bold
+	align=center
+?column=text
+	font_size=6
+	font_style=bold
+	align=center
+&header
+?custom_row=row_%index%
+?content=%index%
+	font_size=6
+	align=center
+?bubble_array=b_%index%
+	answers_list=(A)(B)(C)(D)
+	bubble_size=extrasmall
+	font_size=4
+?content=text_%index%
+	font_size=6
+	align=center
+&custom_row
+&custom_answer_sheet
+?empty_line=
+	height=100
+&block
+?block=3
+?answer_sheet=2
+	answers_count=4
+	answers_list=(A)(B)(C)(D)
+&block
+?block=
+	border=rounded
+?input_group=b344
+	input_border=square
+	input_border=rounded
+?content=अनुक्रमांक। Roll No.
+	font_size=6
+?content=   12681458
+	align=center
+	font_size=6
+&input_group
+&block
+&container
+?container=
+?block=table_block
+?table=COVID-19
+	answers_count=3
+	table_type=striped
+?table_title=COVID-19 Questionnaire
+	font_size=16
+	font_style=Bold
+	color=White
+	background_color=Gray
+	border=rounded
+	border_size=8
+	border_color=Black
+?table_header=1
+	font_style=Italic
+	font_size=12
+?content=Questions
+?answer_value=Yes
+?answer_value=No
+?answer_value=I Don't Know
+&table_header
+?question=Burning sensation
+?question=Painful sensation of cold
+?question=Feels like an electric shock
+?question=Temperature
+&table
+&block
+&container
+?container=
+	columns_count=1
+?block=bl
+	border=square
+	column=1
+?content=SQUARE
+&block
+&container
+?container=
+	columns_count=1
+?block=bl
+	border=rounded
+	column=1
+?content=ROUND
+&block
+&container

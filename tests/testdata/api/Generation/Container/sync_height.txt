@@ -1,0 +1,137 @@
+?container=
+	columns_count=3
+	sync_children_height=true
+?block=
+	column=1
+	border=square
+	border_size=10
+	border_color=red
+?content=ANOTHER SUPER LONG LINE OF TEXT ANOTHER SUPER LONG LINE OF TEXT ANOTHER SUPER LONG LINE OF TEXT ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+&block
+?block=
+	column=3
+	border=square
+	border_size=10
+	border_color=red
+?content=short line of text
+&block
+&container
+
+?container=
+	columns_count=3
+	sync_children_height=true
+?block=
+	column=1
+	border=square
+	border_size=10
+	border_color=red
+?content=short line of text
+&block
+?block=
+	column=2
+	border=square
+	border_size=10
+	border_color=red
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+&block
+?block=
+	column=3
+	border=square
+	border_size=10
+	border_color=red
+?content=ANOTHER SUPER LONG LINE OF TEXT ANOTHER SUPER LONG LINE OF TEXT ANOTHER SUPER LONG LINE OF TEXT ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+&block
+&container
+
+?container=
+	columns_count=3
+	sync_children_height=false
+?block=
+	column=1
+	border=square
+	border_size=10
+	border_color=red
+?content=short line of text
+&block
+?block=
+	column=2
+	border=square
+	border_size=10
+	border_color=red
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+&block
+?block=
+	column=3
+	border=square
+	border_size=10
+	border_color=red
+?content=ANOTHER SUPER LONG LINE OF TEXT ANOTHER SUPER LONG LINE OF TEXT ANOTHER SUPER LONG LINE OF TEXT ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+&block
+&container
+
+?container=
+	columns_count=3
+	sync_children_height=true
+?block=
+	column=1
+	border=square
+	border_size=10
+	border_color=red
+	overflow=wrap
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+	font_style=bold, underline
+?content=ANOTHER SUPER LONG LINE OF TEXT
+&block
+?block=
+	column=3
+	border=square
+	border_size=10
+	border_color=red
+?content=short line of text
+&block
+&container

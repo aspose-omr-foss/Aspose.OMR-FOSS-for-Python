@@ -1,0 +1,32 @@
+?grid=ID1
+	sections_count=8
+	bubble_size=large
+	vertical_margin=35
+	options_count=5
+	header_type=Square
+	header_border_size=10
+	header_border_color=Lime
+
+?grid=ID2
+	sections_count=5
+	orientation=vertical
+	bubble_size=extralarge
+	vertical_margin=40
+	options_count=5
+
+?grid=ID3
+	sections_count=5
+	bubble_size=normal
+	options_count=5
+	header_type=Square
+	header_border_size=5
+	header_border_color=DarkGreen
+
+?grid=ID4
+	sections_count=5
+	orientation=vertical
+	bubble_size=small
+	options_count=5
+	header_type=Square
+	header_border_size=3
+	header_border_color=Red

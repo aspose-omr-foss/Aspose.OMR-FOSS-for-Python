@@ -1,0 +1,6 @@
+?composite_grid=5.
+	columns_count=5
+	extra_row=(") (z) (x) (y) (")
+	values=(a) (b) (c) (d) (e)
+	vertical_margin=100
+	bubble_type=square
