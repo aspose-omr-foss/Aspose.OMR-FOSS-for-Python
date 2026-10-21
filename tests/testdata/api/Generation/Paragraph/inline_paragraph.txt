@@ -1,0 +1,143 @@
+?paragraph=images
+	type=inline
+?image=logo.png
+	width=200
+	height=200
+?content=first long line of text after image
+	font_style=italic
+	font_size=15
+?image=logo.png
+	width=400
+	height=400
+?content=second long line of text after image
+	font_style=italic
+	font_size=15
+?image=logo.png
+	width=300
+	height=300
+&paragraph
+
+?paragraph=multiple
+	type=inline
+?content=111 11 1111 1111 1111 11 11111
+	font_style=italic
+	font_size=15
+?content=2222 22222 222222 2222222 2222 22222
+	font_style=italic
+	font_size=15
+?content=3333 3333333 3333 3333333 3333333 33333 333333
+	font_style=italic
+	font_size=15
+?content=44 444 4444444 444 44444 4444 44 444
+	font_style=italic
+	font_size=15
+?content=555 5555 555 55555 555555 555
+	font_style=italic
+	font_size=15
+&paragraph
+
+?paragraph=multiple
+	type=inline
+?content=1111111111111111111111111
+	font_style=italic
+	font_size=15
+?content=2222222222222222222222222222222
+	font_style=italic
+	font_size=10
+?content=3333333333333333333333333333333333333333
+	font_style=italic
+	font_size=3
+?content=4444444444444444444444444444444
+	font_style=italic
+	font_size=15
+?content=555555555555555555555555
+	font_style=italic
+	font_size=15
+&paragraph
+
+?paragraph=top
+	type=inline
+	vertical_align=top
+?content=Good
+	font_style=bold
+	font_size=15
+?content=morning
+	font_style=italic
+	font_size=15
+?content=mister
+	font_style=italic
+	font_size=10
+?content=Anderson
+	font_style=italic
+	font_size=15
+&paragraph
+?paragraph=center
+	type=inline
+	vertical_align=center
+?content=Good
+	font_style=bold
+	font_size=15
+?content=morning
+	font_style=italic
+	font_size=15
+?content=mister
+	font_style=italic
+	font_size=10
+?content=Anderson
+	font_style=italic
+	font_size=15
+&paragraph
+?paragraph=bottom
+	type=inline
+	vertical_align=bottom
+?content=Good
+	font_style=bold
+	font_size=15
+?content=morning
+	font_style=italic
+	font_size=15
+?content=mister
+	font_style=italic
+	font_size=10
+?content=Anderson
+	font_style=italic
+	font_size=15
+&paragraph
+
+?paragraph=default_type
+?content=1111111111111111111111111
+	font_style=italic
+	font_size=15
+?content=2222222222222222222222222222222
+	font_style=italic
+	font_size=15
+?content=3333333333333333333333333333333333333333
+	font_style=italic
+	font_size=15
+?content=4444444444444444444444444444444
+	font_style=italic
+	font_size=15
+?content=555555555555555555555555
+	font_style=italic
+	font_size=15
+&paragraph
+
+?paragraph=multiple
+	type=inline
+?content=1111111111111111111111111
+	font_style=italic
+	font_size=15
+?content=2222222222222222222222222222222
+	font_style=italic
+	font_size=10
+?content=3333333333333333333333333333333333333333
+	font_style=italic
+	font_size=3
+?content=4444444444444444444444444444444
+	font_style=italic
+	font_size=15
+?content=555555555555555555555555
+	font_style=italic
+	font_size=15
+&paragraph
+

@@ -1,0 +1,9 @@
+?grid=ID
+	bubble_size=extralarge
+	vertical_margin=28
+	sections_count=7
+	options_count=7
+?grid=ID
+	bubble_size=small
+	sections_count=5
+	options_count=5

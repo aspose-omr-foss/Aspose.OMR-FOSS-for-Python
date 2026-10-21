@@ -1,0 +1,191 @@
+?empty_line=
+	height=1
+?image=logo.jpg
+	align=center
+	width=200
+	height=200
+?container=header
+	columns_count=1
+?block=text
+	column=1
+?content=Aspose High School Final Exam
+	font_style=bold
+	font_size=14
+	align=center
+&block
+&container
+?container=
+	columns_count=2
+	block_bottom_margin=0
+	block_top_padding=0
+?block=
+	column=1
+	border=rounded
+?content=Instructions
+	font_style=bold
+	font_size=12
+?content=Mark answer by filling circle fully. If question is skipped - mark special bubble under "Question skipped"
+	font_style=italic
+	font_size=10
+?image=example.png
+	width=700
+	height=300
+	align=left
+&block
+?block=
+	column=2
+	border=rounded
+?empty_line=
+	height=25
+?content=Name:________________________________________
+	font_size=10
+?empty_line=
+	height=50
+?content=Teacher:_____________________________________
+	font_size=10
+?empty_line=
+	height=25
+?content=Month/Day/Year
+	align=center
+?content=  /  /    
+	font_size=10
+	align=left
+	content_type=cells
+	align=center
+?barcode=test_id
+	codetext=true
+	value=15478977
+	barcode_type=Code32
+?empty_line=
+	height=15
+&block
+&container
+?text=Part I
+	font_size=12
+	font_style=bold
+	align=left
+?container=1
+?block=2
+?custom_answer_sheet=PartI
+	border=rounded
+	amount=60
+	columns_count=4	
+	row_proportions=20%-50%-30%
+	border_color=DarkOrange
+?header=123
+?column=QNo.
+	font_size=6
+	font_style=bold
+	align=center
+?column=Answer Options
+	font_size=6
+	font_style=bold
+	align=center
+?column=Question skipped
+	font_size=6
+	font_style=bold
+	align=center
+&header
+?custom_row=row_%index%
+?content=%index%
+	font_size=6
+	align=center
+?bubble_array=b_%index%
+	answers_list=(A)(B)(C)(D)
+	bubble_size=extrasmall
+	font_size=4
+?custom_trigger=trigger_to_skip_question
+	trigger_type=replaceValue
+	value=question skipped
+	target=PartI_%index%
+	bubble_size=extrasmall
+&custom_row
+&custom_answer_sheet
+&block
+&container
+?text=Part II
+	font_size=12
+	font_style=bold
+	align=left
+?container=1
+?block=2
+?custom_answer_sheet=PartII
+	border=rounded
+	amount=60
+	columns_count=4	
+	row_proportions=20%-50%-30%
+	border_color=DarkOrange
+?header=123
+?column=QNo.
+	font_size=6
+	font_style=bold
+	align=center
+?column=Answer Options
+	font_size=6
+	font_style=bold
+	align=center
+?column=Question skipped
+	font_size=6
+	font_style=bold
+	align=center
+&header
+?custom_row=row_%index%
+?content=%index%
+	font_size=6
+	align=center
+?bubble_array=b_%index%
+	answers_list=(A)(B)(C)(D)
+	bubble_size=extrasmall
+	font_size=4
+?custom_trigger=trigger_to_skip_question
+	trigger_type=replaceValue
+	value=question skipped
+	target=PartII_%index%
+	bubble_size=extrasmall
+&custom_row
+&custom_answer_sheet
+&block
+&container
+?text=Part III
+	font_size=12
+	font_style=bold
+	align=left
+?container=1
+?block=2
+?custom_answer_sheet=PartIII
+	border=rounded
+	amount=60
+	columns_count=4	
+	row_proportions=20%-50%-30%
+	border_color=DarkOrange
+?header=123
+?column=QNo.
+	font_size=6
+	font_style=bold
+	align=center
+?column=Answer Options
+	font_size=6
+	font_style=bold
+	align=center
+?column=Question skipped
+	font_size=6
+	font_style=bold
+	align=center
+&header
+?custom_row=row_%index%
+?content=%index%
+	font_size=6
+	align=center
+?bubble_array=b_%index%
+	answers_list=(A)(B)(C)(D)
+	bubble_size=extrasmall
+	font_size=4
+?custom_trigger=trigger_to_skip_question
+	trigger_type=replaceValue
+	value=question skipped
+	target=PartIII_%index%
+	bubble_size=extrasmall
+&custom_row
+&custom_answer_sheet
+&block
+&container

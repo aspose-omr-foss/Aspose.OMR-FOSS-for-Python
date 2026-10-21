@@ -1,0 +1,63 @@
+?image=logo.jpg
+	align=center
+	width=200
+	height=200
+?container=header
+	columns_count=1
+?block=text
+	column=1
+?content=Aspose High School Final Exam
+	font_style=bold
+	font_size=14
+	align=center
+&block
+&container
+?container=
+	columns_count=2
+	block_bottom_margin=0
+	block_top_padding=0
+?block=
+	column=1
+?content=Instructions
+	font_style=bold
+	font_size=12
+?content=Mark answer by filling circle fully. If question is skipped - mark special bubble under "Question skipped"
+	font_style=italic
+	font_size=10
+?image=example.png
+	width=700
+	height=300
+	align=left
+&block
+?block=
+	column=2
+?empty_line=
+	height=25
+?content=Name:________________________________________
+	font_size=10
+?empty_line=
+	height=50
+?content=Teacher:_____________________________________
+	font_size=10
+?empty_line=
+	height=25
+?content=Month/Day/Year
+	align=center
+?content=  /  /    
+	font_size=10
+	align=left
+	content_type=cells
+	align=center
+?empty_line=
+	height=50
+?barcode=test_id
+	codetext=true
+	value=15478977
+	barcode_type=Code32
+&block
+&container
+?empty_line=
+	height=50
+?answer_sheet=PartI
+	elements_count=180
+	columns_count=5

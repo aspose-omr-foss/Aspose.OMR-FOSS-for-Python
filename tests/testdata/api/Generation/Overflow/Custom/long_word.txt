@@ -1,0 +1,8 @@
+?container=
+	columns_count=5
+?block=
+	column=2
+	border=square
+?content=superlonglineoftextthatwillcauseoverflowoflonglineandethiergetexceptionofoverdraw
+&block
+&container

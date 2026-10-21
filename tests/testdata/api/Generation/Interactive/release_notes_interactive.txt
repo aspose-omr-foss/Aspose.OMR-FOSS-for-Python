@@ -1,0 +1,163 @@
+?text=AmazeCar Customer Satisfaction Survey
+	font_style=bold
+	font_size=18
+	align=center
+?image=logo.jpg
+	width=200
+	height=200
+	align=left
+	y=100
+	x=278
+
+?container=
+	columns_count=3
+?block=
+	column=1
+	height=700
+?content=1. How did you hear about our dealership?
+	font_style=bold
+?vertical_choicebox=How did you hear about our dealership?
+?answer=Social Media
+?content=Social Media
+&answer
+?answer=Online Search
+?content=Online Search
+&answer
+?answer=Advertisement (TV/Radio)
+?content=Advertisement (TV/Radio)
+&answer
+?answer=Referral
+?content=Referral
+&answer
+?answer=Other(specify)
+?content=Other(specify)
+?write_in=Other
+	height=100
+	adaptive=true
+	hint=
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=2
+?content=2. What is your age
+	font_style=bold
+?grid=age
+	bubble_size=extrasmall
+	sections_count=2
+	options_count=10
+&block
+?block=
+	column=3
+?content=3. What are the most important factors for you when choosing a car?
+	font_style=bold
+?checkbox=Imporant factors-price
+	bubble_size=extrasmall
+	font_size=10
+	hide_name=true
+?content=Price
+	font_style=italic
+	font_size=10
+&checkbox
+?checkbox=Imporant factors-Brand
+	bubble_size=extrasmall
+	font_size=10
+	hide_name=true
+?content=Brand
+	font_style=italic
+	font_size=10
+&checkbox
+?checkbox=Imporant factors-Fuel efficiency
+	bubble_size=extrasmall
+	font_size=10
+	hide_name=true
+?content=Fuel efficiency
+	font_style=italic
+	font_size=10
+&checkbox
+?checkbox=Imporant factors-Safety features
+	bubble_size=extrasmall
+	font_size=10
+	hide_name=true
+?content=Safety features
+	font_style=italic
+	font_size=10
+&checkbox
+?checkbox=Imporant factors-Design/Style
+	bubble_size=extrasmall
+	font_size=10
+	hide_name=true
+?content=Design/Style
+	font_style=italic
+	font_size=10
+&checkbox
+&block
+&container
+#4. Please select loyalty programs you are part of:
+	display_number=false
+	font_style=bold
+	() Employee discount () AmazeCar rewards
+	() AmazeCar+() Perfect Discount
+
+?content=5. Technical review(see sheet B)
+	font_style=bold
+?answer_sheet=MainQuestions
+	start_id=1
+	elements_count=12
+	columns_count=4	
+
+?content=6. How was our sales team?
+	font_style=bold
+?score_group=6. Dealership
+	score_type_table=table	
+	score_display=DontDisplay
+?score_question=Sales Team Evaluation Questions
+	font_size=10
+	font_style=bold	
+	row_proportions=70%-15%-15%
+?score_header=Yes
+	align=center
+	font_style=bold
+	header_type=positive
+	score=2
+?score_header=No
+	align=center
+	font_style=bold
+	header_type=negative
+?score_answer=Did the sales team greet you promptly upon arrival?
+	score=1
+	align=left
+?score_answer=Was the salesperson knowledgeable about the vehicles and features?
+	score=1
+	align=left
+?score_answer=Did the salesperson clearly explain financing options?
+	score=1
+	align=left
+?score_answer=Did the sales team provide all the information you needed without pressuring you?
+	score=1
+	align=left
+?score_answer=Was the test drive arranged promptly and efficiently?
+	score=1
+	align=left
+&score_question	
+&score_group
+
+?content=Write any additional feedback you would like to share below:
+	align=right
+?container=
+	columns_count=1
+?block=
+	height=400
+?write_in=standalone write-in
+	adaptive=true
+	hint=
+&block
+&container
+
+
+
+
+?barcode=sheet_id
+	codetext=true
+	value=15478977
+	barcode_type=Code32

@@ -1,0 +1,132 @@
+?text=SAT FORM
+	font_style=bold
+	font_size=18
+	align=left
+?empty_line=100
+	height=100
+?container=header
+	columns_proportions=60%-10%-30%
+	block_top_padding=0
+	block_bottom_margin=0
+?block=instructions
+	column=1
+?content=Instructions
+	font_style=bold
+	font_size=10
+	align=center
+?empty_line=
+	height=5
+&block
+?block=
+	column=1
+	border=rounded
+	border_color=DarkOrange
+?content=· Fill in circle completely. 
+?content=· To make changes, erase marks completely.
+&block
+?block=space
+	column=1
+?empty_line=
+	height=50
+&block
+?block=examples_header
+	column=1
+?content=Examples
+	font_style=bold
+	font_size=10
+	align=center
+&block
+?block=example_pic
+	column=1
+	border=rounded
+	border_color=DarkOrange
+?image=example.png
+	width=1200
+	height=500
+	align=left
+&block
+?block=student_id
+	column=2
+?grid=StudentId
+	column=3
+	sections_count=6
+	options_count=9
+	header_type=underline
+	align=center
+	bubble_size=small
+&block
+&container
+?empty_line=
+	height=100
+?text=Section 1
+	font_style=bold
+	font_size=14
+	align=left
+?empty_line=
+	height=50
+?custom_answer_sheet=Section 1
+	border=rounded
+	amount=60
+	columns_count=3
+	row_proportions=20%-80%
+	border_color=DarkOrange
+?header=123
+?column=QNo.
+	font_size=6
+	font_style=bold
+	align=center
+?column=Answer Options
+	font_size=6
+	font_style=bold
+	align=center
+&header
+?custom_row=row_%index%
+?content=%index%
+	font_size=6
+	align=center
+?bubble_array=b_%index%
+	answers_list=(A)(B)(C)(D)(E)(F)(G)
+	bubble_size=extrasmall
+	font_size=4
+&custom_row
+&custom_answer_sheet
+	
+?empty_line=
+	height=50
+?text=Section 2
+	font_style=bold
+	font_size=14
+	align=left
+?empty_line=
+	height=50
+?custom_answer_sheet=Section 2
+	border=rounded
+	amount=60
+	columns_count=3
+	row_proportions=20%-80%
+	border_color=DarkOrange
+?header=123
+?column=QNo.
+	font_size=6
+	font_style=bold
+	align=center
+?column=Answer Options
+	font_size=6
+	font_style=bold
+	align=center
+&header
+?custom_row=row_%index%
+?content=%index%
+	font_size=6
+	align=center
+?bubble_array=b_%index%
+	answers_list=(A)(B)(C)(D)(E)(F)(G)
+	bubble_size=extrasmall
+	font_size=4
+&custom_row
+&custom_answer_sheet
+
+?barcode=test_id
+	codetext=true
+	value=15478977
+	barcode_type=Code32

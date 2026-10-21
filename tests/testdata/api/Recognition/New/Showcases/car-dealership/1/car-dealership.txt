@@ -1,0 +1,250 @@
+?text=AmazeCar Customer Satisfaction Survey
+	font_style=bold
+	font_size=18
+	align=center
+?image=logo.jpg
+	width=200
+	height=200
+	align=left
+	y=100
+	x=278
+?container=description
+	columns_count=1
+?block=
+	column=1
+?empty_line=
+	height=50
+?content=Thank you for your purchase! We want your experience to be Perfect! Please help us be more Amazing by answering some question about your purchase.
+	font_style=Italic
+&block
+&container
+?container=about yourself_header
+	columns_proportions=100%
+	block_bottom_margin=0
+	block_top_padding=0
+?block=
+	column=1
+	border=square
+?content=Please tell us a bit about yourself...
+	font_style=bold
+	font_size=14
+?empty_line=
+	height=50
+&block
+&container
+?empty_line=
+	height=50
+?container=about yourself_content
+	columns_proportions=33%-10%-22%-2%-33%
+	block_bottom_margin=0
+	block_top_padding=0
+?block=
+	column=1
+?content=Gender:
+	font_style=bold
+	font_size=12
+?vertical_choicebox=Gender
+?answer=Female
+?content=Female
+&answer
+?answer=Male
+?content=Male
+&answer
+?answer=Other(specify)
+?content=Other(specify)
+?write_in=Gender
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=3
+?content=Age Group:
+	font_style=bold
+	font_size=12
+?vertical_choicebox=Age Group
+?answer=18-21
+?content=18-21
+&answer
+?answer=21-30
+?content=21-30
+&answer
+?answer=31-45
+?content=31-45
+&answer
+?answer=46-60
+?content=46-60
+&answer
+?answer=>60
+?content=>60
+&answer
+?answer=21-30
+?content=21-30
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=5
+?content=Income Level:
+	font_style=bold
+	font_size=12
+?vertical_choicebox=Gender
+?answer=<$50K
+?content=<$50K
+&answer
+?answer=$50-$100K
+?content=$50-$100K
+&answer
+?answer=$100-$150K
+?content=$100-$150K
+&answer
+?answer=>$150K
+?content=>$150K
+&answer
+&vertical_choicebox
+&block
+&container
+?empty_line=
+	height=100
+?container=salesperson
+	columns_proportions=100%
+	block_bottom_margin=0
+	block_top_padding=0
+?score_group=COVID-19 Survey
+	score_type_table=table	
+?score_question=Please rate your SALESPERSON on the following
+	font_size=10
+	font_style=bold	
+	row_proportions=40%-12%-12%-12%-12%-12%
+	score_display=DontDisplay
+?score_header=Fantastic!
+	align=center
+	font_style=bold
+	header_type=positive
+	score=9
+?score_header=Excellent
+	align=center
+	font_style=bold
+	header_type=positive
+	score=7
+?score_header=Satisfactory
+	align=center
+	font_style=bold
+	header_type=positive
+	score=5
+?score_header=Mediocre
+	align=center
+	font_style=bold
+	header_type=positive
+	score=3
+?score_header=Negative
+	align=center
+	font_style=bold
+	header_type=negative
+?score_answer=The manner in which you were greeted
+	score=2
+	align=left
+?score_answer=Sincerity and honesty in dealing with you
+	score=1
+	align=left
+?score_answer=Consideration of your time
+	score=1
+	align=left
+?score_answer=Ability to listen, understand and answer your questions
+	score=1
+	align=left
+?score_answer=Knowledge of the product features and benefits
+	score=2
+	align=left
+?score_answer=Fulfilled all commitments made to you
+	score=3
+	align=left
+&score_question	
+?score_question=Please rate our SALES TEAM on the following
+	font_size=10
+	font_style=bold	
+	row_proportions=40%-12%-12%-12%-12%-12%
+	score_display=DontDisplay
+?score_header=Fantastic!
+	align=center
+	font_style=bold
+	header_type=positive
+	score=9
+?score_header=Excellent
+	align=center
+	font_style=bold
+	header_type=positive
+	score=7
+?score_header=Satisfactory
+	align=center
+	font_style=bold
+	header_type=positive
+	score=5
+?score_header=Mediocre
+	align=center
+	font_style=bold
+	header_type=positive
+	score=3
+?score_header=Negative
+	align=center
+	font_style=bold
+	header_type=negative
+?score_answer=The vehicle price and/or payments were discussed in a thorough manner
+	score=2
+	align=left
+?score_answer=Explanation of warranty coverage
+	score=1
+	align=left
+?score_answer=The professional manner in which you were treated
+	score=2
+	align=left
+?score_answer=Fulfilled all commitments made to you
+	score=3
+	align=left
+&score_question
+?score_question=More about the buying experience:
+	font_size=10
+	font_style=bold	
+	row_proportions=40%-12%-12%-12%-12%-12%
+	score_display=DontDisplay
+?score_header=Fantastic!
+	align=center
+	font_style=bold
+	header_type=positive
+	score=9
+?score_header=Excellent
+	align=center
+	font_style=bold
+	header_type=positive
+	score=7
+?score_header=Satisfactory
+	align=center
+	font_style=bold
+	header_type=positive
+	score=5
+?score_header=Mediocre
+	align=center
+	font_style=bold
+	header_type=positive
+	score=3
+?score_header=Negative
+	align=center
+	font_style=bold
+	header_type=negative
+?score_answer=If you have contacted out store by phone, how satisfied are you with the way your call was handled?
+	score=2
+	align=left
+&score_question	
+&score_group
+&container
+?container=
+	columns_count=1
+?block=
+	column=1	
+?content=If you overall experience was unsatisfactory - leave your contact information. We'll make it up to you!
+?write_in=contact_information
+&block
+&container
+?barcode=test_id
+	codetext=true
+	value=15478977
+	barcode_type=Code32

@@ -1,0 +1,245 @@
+?image=logo.jpg
+	height=200
+	width=200
+	align=center
+?text=Aspose Board of education
+	font_style=bold
+	font_size=18
+	align=center
+?text=Personalized test
+	font_style=bold
+	font_size=12
+	align=center
+?empty_line=100
+	height=100
+?container=first
+	columns_proportions=36%-2%-30%-2%-30%
+	block_bottom_margin=0
+	block_top_padding=0
+	block_right_margin=20
+?block=left-header
+	column=1
+	border=square
+?content=Personal Info
+	font_size=12
+	align=center
+	font_style=bold, italic
+?empty_line=30
+	height=30
+&block
+?block=left-header
+	column=1
+	border=square
+?content=Please check your name and school. Make sure it is your personnal information. Make sure spelling is correct.
+	font_size=6
+	align=right
+	font_style=italic
+&block
+?block=left-content
+	column=1
+	border=square
+	is_clipped=true
+?empty_line=50
+	height=25
+?input_group=first_name
+	input_border=square
+?content=First name
+?content=John
+	align=center
+&input_group
+?input_group=middle_name
+	input_border=square
+?content=Middle name
+?content=Gavin
+	align=center
+&input_group
+?input_group=last_name
+	input_border=square
+?content=Last name
+?content=Malkovich 
+	align=center
+&input_group
+?input_group=school
+	input_border=square
+?content=School
+?content=Aspose High School
+	align=center
+&input_group
+&block
+?block=left_footer
+	column=1
+?empty_line=50
+	height=100
+?barcode=test_id
+	codetext=true
+	value=15478977
+	barcode_type=Code32
+&block
+?block=middle_header
+	column=3
+	border=square
+?content=Section 1
+	font_size=12
+	align=center
+	font_style=bold, italic
+?empty_line=50
+	height=50
+&block
+?block=middle_content
+	column=3
+	border=square
+?empty_line=25
+	height=25
+?grid=SEC1
+	column=3
+	sections_count=6
+	options_count=6
+	align=center
+&block
+?block=right_header
+	column=5
+	border=square
+?content=Section 2
+	font_size=12
+	align=center
+	font_style=bold, italic
+?empty_line=50
+	height=50
+&block
+?block=right_content
+	column=5
+	border=square
+?empty_line=25
+	height=25
+?grid=SEC2
+	column=5
+	sections_count=6
+	options_count=6
+	align=center
+&block
+&container
+?image=tear-line-small.png
+	x=0
+	y=1550
+	height=200
+	width=2551
+?image=logo.jpg
+	height=200
+	width=200
+	align=center
+?text=Aspose Board of education
+	font_style=bold
+	font_size=18
+	align=center
+?text=Personalized test
+	font_style=bold
+	font_size=12
+	align=center
+?empty_line=100
+	height=100
+?container=second
+	columns_proportions=36%-2%-30%-2%-30%
+	block_bottom_margin=0
+	block_top_padding=0
+	block_right_margin=20
+?block=left-header
+	column=1
+	border=square
+?content=Personal Info
+	font_size=12
+	align=center
+	font_style=bold, italic
+?empty_line=50
+	height=30
+&block
+?block=left-header
+	column=1
+	border=square
+?content=Please check your name and school. Make sure it is your personal information. Make sure spelling is correct.
+	font_size=6
+	align=right
+	font_style=italic
+&block
+?block=left-content
+	column=1
+	border=square
+	is_clipped=true
+?empty_line=50
+	height=25
+?input_group=first_name
+	input_border=square
+?content=First name
+?content=Andrew
+	align=center
+&input_group
+?input_group=middle_name
+	input_border=square
+?content=Middle name
+?content=Willson
+	align=center
+&input_group
+?input_group=last_name
+	input_border=square
+?content=Last name
+?content=Smith 
+	align=center
+&input_group
+?input_group=school
+	input_border=square
+?content=School
+?content=Aspose High School
+	align=center
+&input_group
+&block
+?block=left_footer
+	column=1
+?empty_line=50
+	height=100
+?barcode=test_id
+	codetext=true
+	value=15478978
+	barcode_type=Code32
+&block
+?block=middle_header
+	column=3
+	border=square
+?content=Section 1
+	font_size=12
+	align=center
+	font_style=bold, italic
+?empty_line=50
+	height=50
+&block
+?block=middle_content
+	column=3
+	border=square
+?empty_line=25
+	height=25
+?grid=SEC1
+	column=3
+	sections_count=6
+	options_count=6
+	align=center
+&block
+?block=right_header
+	column=5
+	border=square
+?content=Section 2
+	font_size=12
+	align=center
+	font_style=bold, italic
+?empty_line=50
+	height=50
+&block
+?block=right_content
+	column=5
+	border=square
+?empty_line=25
+	height=25
+?grid=SEC2
+	column=5
+	sections_count=6
+	options_count=6
+	align=center
+&block
+&container

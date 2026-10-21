@@ -1,0 +1,26 @@
+?barcode=Test1
+	value=AlignLeft
+	height=300
+	align=left
+	codetext=true
+	
+?barcode=Test2
+	value=XY-line1
+	height=300
+	codetext=true
+	X=500
+	y=200
+	
+?barcode=Test3
+	value=XY-line2
+	height=300
+	codetext=true
+	X=900
+	y=200
+	
+?barcode=Test4
+	value=XY-line3
+	height=300
+	codetext=true
+	X=1300
+	y=200

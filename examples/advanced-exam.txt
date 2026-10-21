@@ -1,0 +1,118 @@
+# Advanced OMR exam template.
+# Exercises: image, styled text, container+proportions, bordered block,
+# content (+cells), empty_line, grid, answer_sheet, composite_grid,
+# choicebox/option and checkbox -- the full Layer 0-2 core element set.
+
+?image=advanced_logo.png
+	width=240
+	align=center
+?text=Aspose Academy - Advanced Placement Exam
+	font_style=bold
+	font_size=30
+	align=center
+?text=Fill each bubble completely with a dark pen. Keep the sheet flat.
+	font_style=italic
+	font_size=14
+	align=center
+?empty_line=
+	height=24
+
+# ---- Identification row: bordered name/date block | machine-read ID grid ----
+?container=id-row
+	columns_count=2
+	columns_proportions=55-45
+	block_right_margin=60
+	block_bottom_margin=10
+?block=
+	column=1
+	border=square
+	border_size=3
+	border_color=black
+	horizontal_padding=24
+	vertical_padding=20
+?content=Candidate name
+	font_style=bold
+	font_size=16
+?content=_______________________________
+	font_size=16
+?empty_line=
+	height=18
+?content=Exam code (boxed):
+	font_size=13
+?content=EXAMV2
+	content_type=cells
+	align=left
+&block
+?block=
+	column=2
+?grid=StudentID
+	sections_count=8
+	options_count=10
+	bubble_size=small
+	bubble_type=round
+	header_type=square
+	vertical_margin=2
+&block
+&container
+
+?empty_line=
+	height=28
+
+# ---- Section A: 10 multiple-choice questions, A-D, two columns ----
+?text=Section A - Multiple choice (choose one: A B C D)
+	font_style=bold
+	font_size=16
+?answer_sheet=MainQuestions
+	elements_count=10
+	answers_count=4
+	columns_count=2
+	start_id=1
+	bubble_size=normal
+	bubble_type=round
+	vertical_margin=12
+	answers_list=(A)(B)(C)(D)
+
+?empty_line=
+	height=26
+
+# ---- Section B: a 6-digit exam code as a composite grid ----
+?text=Section B - Exam code (mark one digit per column)
+	font_style=bold
+	font_size=16
+?composite_grid=ExamCode
+	columns_count=6
+	values=(0)(1)(2)(3)(4)(5)(6)(7)(8)(9)
+	bubble_size=small
+	bubble_type=round
+	header_type=underline
+	display_hint=true
+
+?empty_line=
+	height=24
+
+# ---- Section C: a stand-alone question as a choicebox ----
+?choicebox=Section C - Which planet is the Red Planet?
+	display_number=false
+	font_style=bold
+	font_size=16
+?option=Mars
+	bubble_value=A
+?option=Venus
+	bubble_value=B
+?option=Jupiter
+	bubble_value=C
+?option=Saturn
+	bubble_value=D
+&choicebox
+
+?empty_line=
+	height=18
+
+# ---- Section D: a declaration checkbox group ----
+?checkbox=Section D - Declaration (tick all that apply)
+	threshold=3
+	font_size=15
+?content=The answers are my own work
+?content=I have read the exam rules
+?content=Contact me about results
+&checkbox

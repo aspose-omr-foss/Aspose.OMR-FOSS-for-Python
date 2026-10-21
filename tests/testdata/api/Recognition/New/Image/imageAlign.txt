@@ -1,0 +1,7 @@
+?image=logo1.jpg
+	align=left
+?image=logo2.png
+	align=center
+?image=clogo.png
+	align=right
+?image=logo1.jpg

@@ -1,0 +1,1431 @@
+?empty_line=
+	height=60
+?container=
+	columns_count=3
+	type=footer
+?block=1
+	column=1
+	height=100
+?content=Precinct Miller 1 / Activation City 1
+	font_size=8
+	align=center
+?content=Page 1
+	font_style=Bold
+	font_size=12
+	align=center
+&block
+?block=2
+	column=1
+	height=100
+?content=VOTE BOTH SIDES
+	font_size=12
+	font_style=Bold
+	align=center
+&block
+?block=3
+	column=3
+	height=200
+?barcode=PrecActPage
+	value=0001001001
+	height=160
+	codetext=true
+&block
+&container
+?container=
+	block_bottom_margin=0
+	block_right_margin=0
+	block_top_padding=50
+?block=
+	border_size=2
+	border=square
+?content=IT IS A CRIME TO FALSIFY THIS BALLOT OR TO VIOLATE INDIANA ELECTION LAWS, IC 3-11-2-7
+	font_style=Bold,Underline
+	font_size=10
+	align=center
+?content=OFFICIAL BALLOT GENERAL ELECTION
+	font_size=12
+	font_style=Bold
+	align=center
+?content=TIPPIECANOE COUNTY, INDIANA - NOVEMBER 8, 2022
+	font_size=12
+	font_style=Bold
+	align=center
+?empty_line=
+	height=9
+?content=To vote for the candidate of your choice, completely darken the oval at the LEFT of the candidate's name.
+	align=left
+	font_style=Bold
+	font_size=9
+?content=Use a black pen.  A write-in vote will NOT be counted unless the vote is for a DECLARED write-in candidate.  You must darken the oval to the left of the name you have written in or your vote will NOT be counted.
+	align=left
+	font_size=9
+&block
+&container
+?vertical_choicebox=VOTE
+?container=STRAIGHT PARTY
+	columns_count=3
+	block_bottom_margin=0
+	block_right_margin=0
+	block_top_padding=0
+?block=
+	column=1
+	border_size=2
+	border=square
+	background_color=Gainsboro
+?content=STRAIGHT PARTY
+	font_size=10
+	font_style=bold
+	align=center
+&block
+?block=REPUBLICAN PARTY
+	column=1
+	border_size=2
+	border=square
+	height=100
+?answer=2
+	bubble_offset_y=20
+?content=REPUBLICAN PARTY
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border_size=2
+	border=square
+?answer=3
+	bubble_offset_y=20
+?content=DEMOCRATIC PARTY
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	background_color=Gainsboro
+?content=PRESIDENT
+	font_size=10
+	font_style=bold
+	align=center
+?content=Vote For Not More Than ONE(1)
+	font_size=9
+	align=center
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=85
+	overflow=clip
+?answer=4
+	bubble_offset_y=20
+?content=JOHN DOE
+	font_size=9
+?content=REPUBLICAN PARTY
+	font_size=8
+	font_style=bold
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=85
+	overflow=clip
+?answer=5
+	bubble_offset_y=20
+?content=JIM SMITH
+	font_size=9
+?content=DEMOCRATIC PARTY
+	font_size=8
+	font_style=bold
+&answer	
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=110
+	overflow=clip
+?answer=6
+	bubble_offset_y=20
+?write_in=
+	hint=Write-in
+	font_size=8
+	required=true
+	adaptive=true
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	background_color=Gainsboro
+?content=GOVERNOR
+	font_size=10
+	font_style=bold
+	align=center
+?content=Vote For Not More Than ONE(1)
+	font_size=9
+	align=center
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=85
+	overflow=clip
+?answer=40
+	bubble_offset_y=20
+?content=STAN SMITH
+	font_size=9
+?content=REPUBLICAN PARTY
+	font_size=8
+	font_style=bold
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=85
+	overflow=clip
+?answer=50
+	bubble_offset_y=20
+?content=TOM JONES
+	font_size=9
+?content=DEMOCRATIC PARTY
+	font_size=8
+	font_style=bold
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=110
+	overflow=clip
+?answer=6
+	bubble_offset_y=20
+?write_in=
+	hint=Write-in
+	font_size=8
+	required=true
+	adaptive=true
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	background_color=Gainsboro
+?content=SCHOOL BOARD
+	font_size=10
+	font_style=bold
+	align=center
+?content=Vote For Not More Than FOUR(4)
+	font_size=9
+	align=center
+&block
+?block=wrap
+	column=1
+	overflow=wrap
+	horizontal_padding=0
+	vertical_padding=0
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=7
+?content=JACK DANIELS
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=8
+?content=TONY ROMA
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=9
+?content=JOHN JONES
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=10
+?content=JOE SHMO
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=11
+?content=LARRY DAVIS
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=12
+?content=SAM MICHAELS
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=13
+?content=BOB JONES
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=14
+?content=CHERYL SHUBERT
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=15
+?content=STACY COLLINS
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=16
+?content=NORM WILKINS
+	font_size=9
+&answer
+&block
+?block=CHAD CHARLESTON
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=17
+?content=CHAD CHARLESTON
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=18
+?content=DOMINIQUE DODSON
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=19
+?content=EVA FAZEK
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+?block=
+	column=1
+	border=square
+	border_size=2
+	vertical_padding=0
+	height=55
+	overflow=clip
+?answer=20
+?content=FONTA FONTAINE
+	font_size=9
+&answer
+&block
+&block
+&container
+&vertical_choicebox

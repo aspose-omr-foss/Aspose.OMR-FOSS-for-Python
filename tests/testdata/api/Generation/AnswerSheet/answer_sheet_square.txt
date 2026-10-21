@@ -1,0 +1,5 @@
+?text=				Answer sheet section
+?answer_sheet=MainQuestions
+	elements_count=50
+	columns_count=5
+	bubble_type=square

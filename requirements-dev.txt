@@ -1,0 +1,9 @@
+# Development / test dependencies for omr-python-for-foss.
+# Install into a venv with:  pip install -r requirements-dev.txt
+# (The VS Code task "env: create (.venv + install all)" does this for you.)
+
+# Runtime dependencies (numpy, opencv-python, Pillow):
+-r requirements.txt
+
+# Test runner — the suite under tests/ is pytest-based:
+pytest>=7

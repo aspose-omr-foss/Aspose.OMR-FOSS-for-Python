@@ -1,0 +1,13 @@
+?grid=ID
+	sections_count=8
+	options_count=8
+	orientation=horizontal
+	align=center
+	
+?grid=ID2
+	sections_count=6
+	options_count=6
+	orientation=vertical
+	align=center
+	
+	

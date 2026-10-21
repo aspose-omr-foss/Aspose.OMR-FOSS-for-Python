@@ -1,0 +1,139 @@
+?text=AmazeCar Customer Satisfaction Survey
+	font_style=bold
+	font_size=18
+	align=center
+?image=logo.jpg
+	width=200
+	height=200
+	align=left
+	y=100
+	x=278
+?container=description
+	columns_count=1
+?block=
+	column=1
+?content=Thank you for your purchase! We want your experience to be Perfect! Please help us be more Amazing by answering some question about your purchase.
+	font_style=Italic
+&block
+&container
+?container=about yourself_header
+	columns_proportions=100%
+	block_bottom_margin=0
+	block_top_padding=0
+?block=
+	column=1
+	border=square
+?content=Please tell us a bit about yourself...
+	font_style=bold
+	font_size=14
+?empty_line=
+	height=50
+&block
+&container
+?empty_line=
+	height=50
+?container=about yourself_content
+	columns_proportions=33%-10%-22%-2%-33%
+	block_bottom_margin=0
+	block_top_padding=0
+?block=
+	column=1
+?content=Gender:
+	font_style=bold
+	font_size=12
+?vertical_choicebox=Gender
+?answer=Female
+?content=Female
+&answer
+?answer=Male
+?content=Male
+&answer
+?answer=Other(specify)
+?content=Other(specify)
+?write_in=Gender
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=3
+?content=Age Group:
+	font_style=bold
+	font_size=12
+?vertical_choicebox=Age Group
+?answer=18-21
+?content=18-21
+&answer
+?answer=21-30
+?content=21-30
+&answer
+?answer=31-45
+?content=31-45
+&answer
+?answer=46-60
+?content=46-60
+&answer
+?answer=>60
+?content=>60
+&answer
+?answer=21-30
+?content=21-30
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=5
+?content=Income Level:
+	font_style=bold
+	font_size=12
+?vertical_choicebox=Gender
+?answer=<$50K
+?content=<$50K
+&answer
+?answer=$50-$100K
+?content=$50-$100K
+&answer
+?answer=$100-$150K
+?content=$100-$150K
+&answer
+?answer=>$150K
+?content=>$150K
+&answer
+&vertical_choicebox
+&block
+&container
+?empty_line=
+	height=25
+#The manner in which you were greeted by SALESPERSON
+	()Fantastic! ()Excellent ()Satisfactory ()Mediocre ()Negative	
+#Sincerity and honesty of SALESPERSON when dealing with you 
+	()Fantastic! ()Excellent ()Satisfactory ()Mediocre ()Negative
+#SALESPERSON consideration of your time
+	()Fantastic! ()Excellent ()Satisfactory ()Mediocre ()Negative
+#SALESPERSON ability to listen, understand and answer your questions
+	()Fantastic! ()Excellent ()Satisfactory ()Mediocre ()Negative
+#Fulfilled all commitments made to you by SALESPERSON
+	()Fantastic! ()Excellent ()Satisfactory ()Mediocre ()Negative
+#The vehicle price and/or payments were discussed by SALESTEAM in a thorough manner
+	()Fantastic! ()Excellent ()Satisfactory ()Mediocre ()Negative
+#Explanation of warranty coverage by SALESTEAM
+	()Fantastic! ()Excellent ()Satisfactory ()Mediocre ()Negative
+#The professional manner in which you were treated by SALESTEAM
+	()Fantastic! ()Excellent ()Satisfactory ()Mediocre ()Negative
+#Fulfilled all commitments made to you by SALESTEAM
+	()Fantastic! ()Excellent ()Satisfactory ()Mediocre ()Negative
+#If you have contacted out store by phone, how satisfied are you with the way your call was handled?
+	()Fantastic! ()Excellent ()Satisfactory ()Mediocre ()Negative
+?empty_line=
+	height=50	
+?container=
+	columns_count=1
+?block=
+	column=1	
+?content=If you overall experience was unsatisfactory - leave your contact information. We'll contact you about it!
+?write_in=contact_information
+&block
+&container
+?barcode=test_id
+	codetext=true
+	value=15478977
+	barcode_type=Code32

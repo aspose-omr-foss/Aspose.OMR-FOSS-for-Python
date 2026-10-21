@@ -1,0 +1,31 @@
+?empty_line=
+	height=2800
+?container=
+	columns_count=3
+?block=
+	column=1
+	overflow=wrap
+	border_size=8
+	border_color=red
+	border=square
+?content=FIRST TEXT
+	font_size=14
+?content=SECOND TEXT
+	font_size=14
+?content=THIRD TEXT
+	font_size=14
+&block
+?block=
+	column=2
+	border_color=green
+	border_size=8
+	border=square
+&block
+?block=
+	column=3
+	border_color=orange
+	border_size=8
+	border=square
+&block
+&container
+	

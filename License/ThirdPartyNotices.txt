@@ -1,0 +1,81 @@
+THIRD-PARTY OPEN SOURCE NOTICES
+
+This document lists the third-party open source software used by
+omr-python-for-foss. Dependency constraints come from pyproject.toml and
+requirements.txt. Installed versions may differ unless an exact version is shown.
+
+omr-python-for-foss is licensed separately under License/LICENSE.txt.
+
+
+RUNTIME DEPENDENCIES
+
+1. NumPy
+   Project constraint: Version 1.23 or later
+   License: BSD 3-Clause
+   License source:
+   https://pypi.org/project/numpy/
+
+   NumPy provides the array math used by the recognition sampler and the shared
+   geometry module. NumPy distributions may include additional third-party
+   binary components and notices. When redistributing NumPy or a bundled
+   application, include the complete license files shipped with the exact NumPy
+   distribution.
+
+2. OpenCV for Python (opencv-python)
+   Project constraint: Version 4.6 or later
+   License: MIT (packaging wrapper) over the Apache License 2.0 OpenCV library
+   License source:
+   https://pypi.org/project/opencv-python/
+   OpenCV library license source:
+   https://opencv.org/license/
+
+   The opencv-python wheels bundle a prebuilt OpenCV library. The Python
+   packaging is MIT licensed; the bundled OpenCV native library is distributed
+   under the Apache License 2.0. opencv-python also depends on NumPy, which is
+   listed above. OpenCV supplies the image decode, perspective transform, and
+   contour detection used by reference-point registration.
+
+3. Pillow
+   Project constraint: Version 9.2 or later
+   License: MIT-CMU (Historical Permission Notice and Disclaimer)
+   License source:
+   https://pypi.org/project/pillow/
+
+   Pillow is the fork of the Python Imaging Library. It supplies font rasterizing
+   and PNG image I/O used by the generation render engine.
+
+
+BUILD AND DEVELOPMENT DEPENDENCIES
+
+These tools are used to build or test the project. They are not required by the
+library at runtime unless included by a downstream distributor.
+
+1. setuptools
+   Project constraint: Version 77.0.3 or later
+   License: MIT
+   License source:
+   https://pypi.org/project/setuptools/
+
+2. pytest
+   Project constraint: Version 7 or later
+   License: MIT
+   License source:
+   https://pypi.org/project/pytest/
+
+
+BUNDLED OPEN DATA
+
+None. This library ships no bundled data assets; it is pure Python under the
+omr package.
+
+
+REDISTRIBUTION
+
+The dependencies listed above are normally installed by the Python package
+installer and are not vendored in this repository. If a binary application,
+container, offline installer, or other combined distribution includes these
+dependencies, retain all copyright notices and include the complete license and
+notice files shipped with the exact dependency versions being redistributed.
+
+This inventory was reviewed on 2026-11-12. It is an engineering inventory, not
+legal advice. Update it whenever dependencies or bundled assets change.

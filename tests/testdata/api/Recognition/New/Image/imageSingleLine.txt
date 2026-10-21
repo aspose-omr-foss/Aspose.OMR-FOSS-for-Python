@@ -1,0 +1,14 @@
+?image=logo1.jpg
+	align=left
+	
+?image=logo2.png
+	X=500
+	y=200
+	
+?image=clogo.png
+	X=900
+	y=200
+	
+?image=logo1.jpg
+	X=1300
+	y=200

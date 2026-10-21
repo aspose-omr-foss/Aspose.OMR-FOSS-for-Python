@@ -1,0 +1,61 @@
+?checkbox=Sex_multiselect_false:
+	multiselect=false
+	bubble_size=extrasmall
+	bubble_type=round
+	font_size=10		
+	threshold=40
+?content=Male
+	font_style=italic
+	font_size=10
+?content=Female
+	font_style=italic
+	font_size=10
+&checkbox
+?checkbox=Age_multiselect_default:
+	bubble_size=extrasmall
+	bubble_type=round
+	font_size=10			
+	threshold=40	
+?content=Older than 25
+	font_style=italic
+	font_size=10
+?content=Older than 50
+	font_style=italic
+	font_size=10
+&checkbox
+?checkbox=Occupation_multiselect_true:
+	multiselect=true
+	bubble_size=extrasmall
+	bubble_type=round
+	font_size=10		
+	threshold=40		
+?content=Developer
+	font_style=italic
+	font_size=10
+?content=Manager
+	font_style=italic
+	font_size=10
+&checkbox
+
+#What is Aspose.OMR main function?(multiselect=false)
+	multiselect=false
+	() OCR () Capture human-marked data
+#Can Aspose.OMR process not only scans, but also photos?(multiselect=default)
+	() Yes, indeed! () No
+#Aspose.OMR is available on any platform, because it is(multiselect=true)
+	multiselect=true
+	() Cross-platform code () Cloud service
+?text=multiselect_default	
+?answer_sheet=MainQuestions_multiselect_default	
+	elements_count=10
+	columns_count=2
+?text=multiselect_true
+?answer_sheet=MainQuestions_multiselect_true
+	elements_count=10
+	columns_count=2
+	multiselect=true
+?text=multiselect_false
+?answer_sheet=MainQuestions_multiselect_false
+	elements_count=10
+	columns_count=2
+	multiselect=false

@@ -1,0 +1,34 @@
+?container=
+	columns_count=1
+?block=
+	column=1
+?content=UPPERCASE WORD
+	content_type=Cells
+	font_size=20
+	align=left
+?content=UPPERCASE WORD
+	content_type=Cells
+	font_size=20
+	align=center
+?content=UPPERCASE WORD
+	content_type=Cells
+	font_size=20
+	align=right
+&block
+
+?block=
+	column=1
+?content=lowercase word
+	content_type=Cells
+	font_size=20
+	align=left
+?content=lowercase word
+	content_type=Cells
+	font_size=20
+	align=center
+?content=lowercase word
+	content_type=Cells
+	font_size=20
+	align=right
+&block
+&container

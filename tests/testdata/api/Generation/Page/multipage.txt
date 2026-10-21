@@ -1,0 +1,24 @@
+?page=first_page
+	orientation=Horizontal
+	paper_size=Letter
+	left_margin=120
+	right_margin=120
+	rotation_point_position=BottomRight1
+?empty_line=
+	height=400
+?content=FIRST PAGE
+	font_size=14
+	font_style=bold
+&page
+?page=second_page
+	orientation=Vertical
+	paper_size=A4
+	left_margin=500
+	right_margin=500
+	rotation_point_position=TopLeft1
+?empty_line=
+	height=400
+?content=SECOND PAGE
+	font_size=14
+	font_style=bold
+&page

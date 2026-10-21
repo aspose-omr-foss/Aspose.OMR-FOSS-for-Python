@@ -1,0 +1,13 @@
+?barcode=Test1
+	value=CodeTextTrue
+	height=300
+	codetext=true
+	
+?barcode=Test2
+	value=CodeTextFalse
+	height=300
+	codetext=false
+
+?barcode=Test#
+	value=CodeTextDefault
+	height=300

@@ -1,0 +1,13 @@
+?container=1
+?block=1
+?table=COVID-19
+?table_title=COVID-19 Questionnaire
+?table_header=1
+&table_header
+?question=Burning sensation
+?question=Painful sensation of cold
+?question=Feels like an electric shock
+?question=Temperature
+&table
+&block
+&container

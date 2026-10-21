@@ -1,0 +1,27 @@
+?container=
+	columns_proportions=20%-60%-20%
+?block=
+	column=1
+	border=square
+	border_color=red
+	border_size=10
+?content=FIRST_COLUMN
+&block
+?block=
+	column=1
+	border=square
+	border_color=red
+	border_size=10
+?image=clogo.png
+	align=left
+	width=1000
+	height=100
+&block
+?block=
+	column=2
+	border=square
+	border_color=green
+	border_size=10
+?content=SECOND_COLUMN
+&block
+&container

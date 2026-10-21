@@ -1,0 +1,20 @@
+?grid=ID1
+	sections_count=8
+	options_count=8
+	X=500
+	Y=350
+	
+?grid=ID2
+	sections_count=8
+	options_count=8
+	orientation=vertical
+	X=1002
+	Y=818
+	
+?grid=ID3
+	sections_count=8
+	options_count=8
+	orientation=horizontal
+	X=1606
+	Y=2500
+	

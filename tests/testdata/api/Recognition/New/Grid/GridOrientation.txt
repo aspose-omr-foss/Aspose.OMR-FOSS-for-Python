@@ -1,0 +1,14 @@
+?grid=ID1
+	sections_count=8
+	options_count=8
+	orientation=horizontal
+	
+?grid=ID2
+	sections_count=8
+	options_count=8
+	orientation=vertical
+	
+?grid=ID2
+	sections_count=8
+	options_count=8
+	orientation=notvalid

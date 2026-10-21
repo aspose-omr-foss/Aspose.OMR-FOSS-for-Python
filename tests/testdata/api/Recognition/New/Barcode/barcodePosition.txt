@@ -1,0 +1,31 @@
+?barcode=Test1
+	value=Default-test
+	height=300
+	codetext=true
+	
+?barcode=Test2
+	value=X-100-Y-500-test
+	height=300
+	codetext=true
+	X=100
+	y=500
+	
+?barcode=Test3
+	value=X-800-test
+	height=300
+	codetext=true
+	X=800
+	
+?barcode=Test4
+	value=Y-800-test
+	height=300
+	codetext=true
+	Y=800
+	
+?barcode=Test5
+	value=xy-align-test
+	height=300
+	codetext=true
+	align = right
+	Y=1200
+	x=300

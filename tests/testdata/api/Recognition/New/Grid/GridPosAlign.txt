@@ -1,0 +1,6 @@
+?grid=ID
+	sections_count=7
+	options_count=7
+	alignment=center
+	x=200
+	y=800

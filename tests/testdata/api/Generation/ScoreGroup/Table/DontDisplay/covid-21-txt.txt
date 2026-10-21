@@ -1,0 +1,100 @@
+?text=COVID-19 survey.
+	font_style=bold
+	align=center
+	font_family=Segoe UI
+	font_size=14
+
+
+?container=main_container
+?block=main_block
+?score_group=COVID-19 Survey
+	score_type_table=table	
+	score_display=DontDisplay
+?score_question=Are you experiencing any of the below symptoms_pt1?
+	font_size=10
+	font_style=bold	
+	row_proportions=70%-15%-15%
+?score_header=Yes
+	align=center
+	font_style=bold
+	header_type=positive
+	score=2
+?score_header=No
+	align=center
+	font_style=bold
+	header_type=negative
+?score_answer=I am feeling ill
+	score=1
+	align=left
+?score_answer=I am experiencing fatigue
+	score=1
+	align=left
+?score_answer=I have a headache
+	score=1
+	align=left
+?score_answer=I am experiencing MYALGIA or body aches
+	score=1
+	align=left
+?score_answer=I have Diarrhea
+	score=1
+	align=left
+&score_question	
+?score_question=Are you experiencing any of the below symptoms_pt2?
+	font_size=10
+	font_style=bold	
+	row_proportions=70%-15%-15%
+?score_header=Yes
+	align=center
+	font_style=bold
+	header_type=positive
+?score_header=No
+	align=center
+	font_style=bold
+	header_type=negative
+?score_answer=I have a cough
+	score=2
+	align=left
+?score_answer=I have the flu
+	score=2
+	align=left
+?score_answer=I have a sore throat
+	score=2
+	align=left
+?score_answer=I have difficulty breathing
+	score=2
+	align=left
+&score_question
+?score_question=Are you experiencing any of the below symptoms_pt3?
+	font_style=bold	
+	row_proportions=70%-15%-15%
+?score_header=Yes
+	align=center
+	font_style=bold
+	header_type=positive
+?score_header=No
+	align=center
+	font_style=bold
+	header_type=negative
+?score_answer=Do you have a fever (Temperature above 37.5)?
+	score=4
+	align=left
+?score_answer=Have you travelled internationally during the past 14 days other than to Mozambique?
+	score=4
+	align=left
+?score_answer=Do you have direct contact or are you taking care of a Positive Covid-19 patient?
+	score=4
+	align=left
+?score_answer=Have you tested for Covid-19, and are awaiting your test results?
+	score=5
+	align=left
+&score_question
+&score_group
+&block
+&container
+
+
+
+
+?text=Full name and sign__________________________________ Date____________
+	align=right
+	font_style=Italic

@@ -1,0 +1,68 @@
+#What is Aspose.OMR main function?
+	() OCR () Capture human-marked data
+	font_style=bold
+	() There is no main function () Enhance images
+	color=red
+#Can Aspose.OMR process not only scans, but also photos?
+	font_style=bold, underline
+	color=purple
+	align=right
+	() Yes, indeed! () No
+#Aspose.OMR is available on any platform, because it is:
+	() Cross-platform code () Cloud service
+	display_number=false
+#Aspose.OMR works with any kind of OMR forms: tests, exams, questionnaires, surveys, etc.
+	() Yes, indeed! () No
+#Excellent recognition results can be achieved only for filled bubbles at least for:
+	() 40% () 60% () 75% () 98%
+#Does Aspose.OMR support bubbles mapping to any key names?
+	() No () Partially () Yes, any key names
+?choicebox=Do you have to mark up every question on the page?
+	font_style=bold, underline
+	color=red
+	align=right
+	font_family=Times new Roman
+	font_size=20
+?option= Yes, that will help a lot! 
+	bubble_value=Yes
+	font_style=italic, underline
+	color=purple
+	align=right
+	font_family=Segoe UI
+	font_size=11
+	row_index=2
+?option= No 
+	bubble_value=No
+	font_style=italic
+	color=Green
+	align=center
+	font_family=Segoe UI
+	font_size=14
+	row_index=1
+&choicebox
+?choicebox=Do you have to mark up every question on the page?
+	font_style=bold, underline
+	color=red
+	align=right
+	font_family=Times new Roman
+	font_size=15
+?option= Yes, that will help a lot! 
+	bubble_value=Yes
+	font_style=italic, underline
+	color=purple
+	align=right
+	font_family=Segoe UI
+	font_size=8
+?option= No 
+	bubble_value=No
+	font_style=italic
+	color=Green
+	align=center
+	font_family=Segoe UI
+	font_size=8
+&choicebox
+#Rate your preference from 0 to 9 with "0" being preference towards performance 
+  and "9" being preference towards flexibility.
+	(0) (1) (2) (3) (4) (5) (6) (7) (8) (9)
+#I found aspose omr to be a useful tool. (5 - strongly agree, 1 - strongly disagree)
+	(5) (4) (3) (2) (1)

@@ -1,0 +1,572 @@
+?image=logo.jpg
+	x=300
+	y=150
+	width=200
+	height=200
+?text=Aspose Regional Hospital
+	align=left
+	font_style=bold
+?container=breakfast_header
+	columns_count=1
+?block=main
+	border=none
+?content=Breakfast
+	font_style=Italic, Bold
+	font_size=18
+	align=center
+&block	
+&container
+?container=breakfast_content
+	columns_count=4
+	block_bottom_margin=0
+	block_top_padding=0
+	block_right_margin=0
+?block=
+	column=1
+	border=square
+	border_color=darkorange
+?content=Juices
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Juices
+?answer=Orange
+?content=Orange
+&answer
+?answer=Apple
+?content=Apple
+&answer
+?answer=Cranberry
+?content=Cranberry
+&answer
+?answer=Prune
+?content=Prune
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=2
+	border=square
+	border_color=DarkOrange
+?content=Fruits
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Fruits
+?answer=Banana
+?content=Banana
+&answer
+?answer=Apple
+?content=Apple
+&answer
+?answer=Orange
+?content=Orange
+&answer
+?answer=Fruit Yogurt
+?content=Fruit Yogurt
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=3
+	border=square
+	border_color=DarkOrange
+?content=Bakery
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Bakery
+?answer=Banana Bread
+?content=Banana Bread
+&answer
+?answer=Bran Muffin
+?content=Bran Muffin
+&answer
+?answer=Bagel
+?content=Bagel
+&answer
+?answer=Cinnamon Roll
+?content=Cinnamon Roll
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=4
+	border=square
+	border_color=DarkOrange
+?content=Condiments
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Condiments
+?answer=Lemon
+?content=Lemon
+&answer
+?answer=Sugar
+?content=Sugar
+&answer
+?answer=Honey
+?content=Honey
+&answer
+?answer=Jelly
+?content=Jelly
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=1
+	border=square
+	border_color=DarkOrange
+?content=Milk
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Milk
+?answer=2% Milk
+?content=2% Milk
+&answer
+?answer=NonFat Milk
+?content=NonFat Milk
+&answer
+?answer=Whole Milk
+?content=Whole Milk
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=2
+	border=square
+	border_color=DarkOrange
+?content=Tea
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Tea
+?answer=Decaf
+?content=Decaf
+&answer
+?answer=Regular
+?content=Regular
+&answer
+?answer=Iced
+?content=Iced
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=3
+	border=square
+	border_color=DarkOrange
+?content=Coffee
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Coffee
+?answer=Decaf
+?content=Decaf
+&answer
+?answer=Regular
+?content=Regular
+&answer
+?answer=Iced
+?content=Iced
+&answer
+&vertical_choicebox
+&block
+?block=
+	column=4
+	border=square
+	border_color=DarkOrange
+?content=Hot Chocolate
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Hot Chocolate
+?answer=Sugar-free
+?content=Sugar-free
+&answer
+?answer=Regular
+?content=Regular
+&answer
+?answer=Mocha Mix
+?content=Mocha Mix
+&answer
+&vertical_choicebox
+&block
+&container
+?container=specials
+	columns_count=1
+	block_bottom_margin=0
+	block_top_padding=0
+	block_right_margin=0
+?block=
+	column=1
+	border=square
+	border_color=DarkOrange
+?content=Daily Specials
+	font_style=italic, bold
+	font_size=12
+	align=center
+?content=Soup of the Day: Creamy Cheddar Cheese Soup. Entrée of the Day: Steak
+	align=center
+&block
+&container
+?container=lunch_header
+	columns_count=1
+	block_bottom_margin=0
+	block_top_padding=0
+	block_right_margin=0
+?block=
+?content=Lunch
+	font_style=Italic, Bold
+	font_size=18
+	align=center
+&block
+&container
+?container=lunch_content
+	columns_count=4
+	block_bottom_margin=0
+	block_top_padding=0
+	block_right_margin=0
+?block=
+	column=1
+	border=square
+	border_color=DarkOrange
+?content=Soup
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Soup
+?answer=Soup of the Day
+?content=Soup of the Day
+&answer
+?answer=Chicken Noodle
+?content=Chicken Noodle
+&answer
+?answer=Beef Broth
+?content=Beef Broth
+&answer
+&vertical_choicebox
+?empty_line=
+	height=95
+&block
+?block=
+	column=2
+	border=square
+	border_color=DarkOrange
+?content=Bakery
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Bakery
+?answer=White Roll
+?content=White Roll
+&answer
+?answer=Wheat Roll
+?content=Wheat Roll
+&answer
+?answer=Melba Toast
+?content=Melba Toast
+&answer
+?answer=Flour Tortilla
+?content=Flour Tortilla
+&answer
+&vertical_choicebox
+?empty_line=
+	height=25
+&block
+?block=
+	column=3
+	border=square
+	border_color=DarkOrange
+?content=Salads
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Salads
+?answer=Garden Patch Greens
+?content=Garden Patch Greens
+&answer
+?answer=Gelatin Fruit Salad
+?content=Gelatin Fruit Salad
+&answer
+?answer=Fruit Yogurt
+?content=Fruit Yogurt
+&answer
+&vertical_choicebox
+?empty_line=
+	height=95
+&block
+?block=
+	column=4
+	border=square
+	border_color=DarkOrange
+?content=Condiments
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Condiments
+?answer=Non-Dairy Creamer
+?content=Non-Dairy Creamer
+&answer
+?answer=Thousand Island
+?content=Thousand Island
+&answer
+?answer=Honey
+?content=Honey
+&answer
+&vertical_choicebox
+?empty_line=
+	height=95
+&block
+&container
+?empty_line=
+	height=25
+?text=Entrées
+	align=center
+	font_style=bold
+	font_size=12
+?empty_line=
+	height=25
+?container=Entrées
+	columns_count=3
+	block_bottom_margin=0
+	block_top_padding=0
+	block_right_margin=0
+?block=
+	column=1
+	border=square
+	border_color=DarkOrange
+?vertical_choicebox=Entrées
+?answer=Roast Beef Sandwich
+?content=Roast Beef Sandwich
+&answer
+?answer=3 Cheese Sandwich
+?content=3 Cheese Sandwich
+&answer
+?answer=Egg Salad Sandwich
+?content=Egg Salad Sandwich
+&answer
+&vertical_choicebox
+?empty_line=
+	height=97
+&block
+?block=
+	column=2
+	border=square
+	border_color=DarkOrange
+?vertical_choicebox=Entrées
+?answer=Fiesta Fruit Plate
+?content=Fiesta Fruit Plate
+&answer
+?answer=Cold Meat Platter with White Roll
+?content=Cold Meat Platter with White Roll
+&answer
+?answer=Vegetable & Cream Cheese Wrap
+?content=Vegetable & Cream Cheese Wrap
+&answer
+&vertical_choicebox
+?empty_line=
+	height=95
+&block
+?block=
+	column=3
+	border=square
+	border_color=DarkOrange
+?vertical_choicebox=Entrées
+?answer=Baked Chicken w/ Stuffing
+?content=Baked Chicken w/ Stuffing
+&answer
+?answer=Oriental Beef
+?content=Oriental Beef
+&answer
+?answer=Garden Vegetable Lasagna
+?content=Garden Vegetable Lasagna
+&answer
+&vertical_choicebox
+?empty_line=
+	height=97
+&block
+&container
+?empty_line=
+	height=25
+?text=Dessert
+	align=center
+	font_style=bold
+	font_size=12
+?empty_line=
+	height=25
+?container=Deserts
+	columns_count=5
+	block_bottom_margin=0
+	block_top_padding=0
+	block_right_margin=0
+?block=
+	column=1
+	border=square
+	border_color=DarkOrange
+?vertical_choicebox=Dessert
+?answer=Gelatin
+?content=Gelatin
+&answer
+&vertical_choicebox
+?empty_line=
+	height=25
+&block
+?block=
+	column=2
+	border=square
+	border_color=DarkOrange
+?vertical_choicebox=Dessert
+?answer=Peaches
+?content=Peaches
+&answer
+&vertical_choicebox
+?empty_line=
+	height=25
+&block
+?block=
+	column=3
+	border=square
+	border_color=DarkOrange
+?vertical_choicebox=Dessert
+?answer=Custard
+?content=Custard
+&answer
+&vertical_choicebox
+?empty_line=
+	height=25
+&block
+?block=
+	column=4
+	border=square
+	border_color=DarkOrange
+?vertical_choicebox=Dessert
+?answer=Sherbet
+?content=Sherbet
+&answer
+&vertical_choicebox
+?empty_line=
+	height=25
+&block
+?block=
+	column=5
+	border=square
+	border_color=DarkOrange
+?vertical_choicebox=Dessert
+?answer=Angel Food
+?content=Angel Food
+&answer
+&vertical_choicebox
+?empty_line=
+	height=25
+&block
+&container
+?empty_line=
+	height=25
+?text=Drinks
+	align=center
+	font_style=bold
+	font_size=12
+?empty_line=
+	height=25
+?container=drinks
+	columns_count=4
+	block_bottom_margin=0
+	block_top_padding=0
+	block_right_margin=0
+?block=
+	column=1
+	border=square
+	border_color=DarkOrange
+?content=Milk
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Milk
+?answer=2% Milk
+?content=2% Milk
+&answer
+?answer=NonFat Milk
+?content=NonFat Milk
+&answer
+?answer=Whole Milk
+?content=Whole Milk
+&answer
+&vertical_choicebox
+?empty_line=
+	height=25
+&block
+?block=
+	column=2
+	border=square
+	border_color=DarkOrange
+?content=Tea
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Tea
+?answer=Decaf
+?content=Decaf
+&answer
+?answer=Regular
+?content=Regular
+&answer
+?answer=Iced
+?content=Iced
+&answer
+&vertical_choicebox
+?empty_line=
+	height=25
+&block
+?block=
+	column=3
+	border=square
+	border_color=DarkOrange
+?content=Coffee
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Coffee
+?answer=Decaf
+?content=Decaf
+&answer
+?answer=Regular
+?content=Regular
+&answer
+?answer=Iced
+?content=Iced
+&answer
+&vertical_choicebox
+?empty_line=
+	height=25
+&block
+?block=
+	column=4
+	border=square
+	border_color=DarkOrange
+?content=Hot Chocolate
+	font_style=bold
+	font_size=12
+	align=center
+?vertical_choicebox=Hot Chocolate
+?answer=Sugar-free
+?content=Sugar-free
+&answer
+?answer=Regular
+?content=Regular
+&answer
+?answer=Mocha Mix
+?content=Mocha Mix
+&answer
+&vertical_choicebox
+?empty_line=
+	height=25
+&block
+&container
+?empty_line=
+	height=50
+?barcode=RoomId
+	codetext=true
+	barcode_type=Code128
+	value=578

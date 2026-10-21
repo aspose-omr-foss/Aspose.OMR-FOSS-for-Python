@@ -1,0 +1,44 @@
+?container=header
+	columns_count=1
+?block=text
+	column=1
+?content=Airport of townname satisfactory survey
+	font_style=bold
+	font_size=14
+	align=center
+&block
+&container
+?container=userInfo
+	columns_proportions=40-15-30-15
+	block_right_margin=0
+?block=name
+	column=1
+?content=Name:_______________________
+	font_size=10
+&block
+?block=age
+	column=2
+?content=Age:______
+	font_size=10
+&block
+?block=sex
+	column=3
+?checkbox=Sex:
+	bubble_size=extrasmall
+	bubble_type=round
+	font_size=10
+?content=Male
+	font_style=italic
+	font_size=10
+?content=Female
+	font_style=italic
+	font_size=10
+&checkbox
+&block
+?block=date
+	column=4
+?content=Date:______
+	font_size=10
+	align=left
+&block
+&container

@@ -1,0 +1,344 @@
+﻿?empty_line=start
+	height=5
+?container=1
+	columns_count=1
+?block=2
+	column=1
+	border=none
+?paragraph=
+	type=multiple
+?content=केंद्रीय माध्यमिक शिक्षा बोर्ड CENTRAL BOARD OF SECONDARY EDUCATION
+	font_size=10
+	font_family=Segoe UI
+	font_style=bold
+	align=Right	
+&paragraph
+&block
+&container
+?image=icon.jpg
+	x=200
+	y=100
+	height=200
+	width=200
+?container=co2
+	columns_count=2
+?block=b2
+	column=1
+?content= उत्तर पत्रिका / ANSWER SHEET
+	align=Right
+	font_style=bold
+	font_size=10
+?content= केवल नीले/काले बॉल प्वाइंट पेन का प्रयोग करें        USE ONLY BLUE/BLACK BALLPOINT PEN
+	font_size=6
+	align=Right
+&block
+?block=b3
+	column=2
+?content=माध्यमिक विद्यालय परीक्षा (दसवीं कक्षा)
+	align=center
+	font_style=bold
+	font_size=10
+?content=Secondary School Examination (Class X)
+	align=center
+	font_style=bold
+	font_size=10
+&block
+&container
+?container=c344
+	columns_count=2
+?block=b34
+	border=square
+	column=1
+?input_group=b344
+	input_border=square
+?content=अनुक्रमांक। Roll No.
+	font_size=6
+?content=   12681458
+	align=left
+	font_size=6
+&input_group
+?input_group=b344
+	input_border=square
+?content=अंक और शब्दों में (in digits and words)
+	font_size=6
+?content=One Crore Twenty Six Lakhs Eighty One Thousand Four Hundred Fifty Eight
+	align=left
+	font_size=6
+&input_group
+?input_group=b344
+	input_border=square
+?content=परीक्षा का दिन और तारीख Day & Date of the Examination
+	font_size=6
+?content=Friday - (26/11/2021)
+	align=left
+	font_size=6
+&input_group
+?input_group=b344
+	input_border=square
+?content=केंद्र संख्या और नामCenter No. & Name
+	font_size=6
+?content=1001 RACHANA SCH SHAHBAG AHMEDABAD GUJARAT
+	align=left
+	font_size=6
+&input_group
+?input_group=b344
+	input_border=square
+?content=विषय कोड और नाम Subject code & Name
+	font_size=6
+?content=301 - ENGLISH CORE
+	align=left
+	font_size=6
+&input_group
+?input_group=b344
+	input_border=square
+?content=उम्मीदवार का नाम Candidate's Name
+	font_size=6
+?content=RAJESH KUMAR
+	align=left
+	font_size=6
+&input_group
+?input_group=b344
+	input_border=square
+?content=पिता का नाम Father's Name
+	font_size=6
+?content=SHIV KUMAR PANDEY
+	align=left
+	font_size=6
+&input_group
+?input_group=b344
+	input_border=square
+?content=स्कूल कोड और नाम School code and Name
+	font_size=6
+?content=(10005) RACHANA SCH SHAHIBAG AHMEDABAD GUJARAT
+	align=left
+	font_size=6
+&input_group
+&block
+?block=
+	border=square
+	column=2
+?paragraph=barcode omr
+?content=OMR No. 1387342325
+	font_size=9
+	align=center
+?barcode=1
+	value=1387342325
+	height=100
+	align=left
+	Y=520
+	codetext=false
+	barcode_type=Code128
+&paragraph
+&block
+?block=12312
+	border=square
+	is_clipped=true
+	column=2
+?content=प्रश्न पत्र पर कोड नं. लिखे
+	align=center
+	font_size=10
+?content=Write code No. written on the question paper
+	align=center
+	font_size=10
+?content=Question Paper Code
+	font_size=10
+	align=center
+?content=    /  /  
+	content_type=Cells
+	align=center
+&block
+&container
+?container=12312
+	columns_count=2
+?block=asdas
+	column=1
+	is_clipped=true
+	border=square
+?empty_line=empty space
+	height=50
+?content=नमूना पाठ SAMPLE TEXT
+	font_size=6
+	align=right
+&block
+&container
+?image=examples.png
+	align=center
+	height=315
+	width=600
+	x=1307
+	y=1021
+?container=SAMPLE CONTAINER
+	columns_count=1
+?block=asd
+	column=1
+	border=square
+?content=नमूना पाठ SAMPLE TEXT    नमूना पाठ SAMPLE TEXT    नमूना पाठ SAMPLE TEXT    नमूना पाठ SAMPLE TEXT    नमूना पाठ SAMPLE TEXT    नमूना पाठ
+	font_size=8
+&block
+&container
+?container=custom_answer_sheet_container
+	columns_count=1
+?block=all
+	column=1
+	border=square
+?custom_answer_sheet=60 questions
+	section_border=square
+	amount=60
+	columns_count=4	
+	row_proportions=15%-50%-20%-15%
+?header=123
+?column=QNo.
+	font_size=4
+	font_style=bold
+	align=center
+?column=Bubbles
+	font_size=4
+	font_style=bold
+	align=center
+?column=*
+	font_size=4
+	font_style=bold
+	align=center
+?column=#
+	font_size=4
+	font_style=bold
+	align=center
+&header
+?custom_row=row_%index%
+?content=%index%
+	font_size=8
+	font_style=regular
+	align=center
+?bubble_array=b_%index%
+	font_size=6
+	font_style=regular
+	answers_list=(A)(B)(C)(D)
+	bubble_size=extrasmall
+?write_in=customWriteIn
+	required=true
+?custom_trigger=trigger_to_skip_question
+	trigger_type=replaceValue
+	value=question skipped
+	target=60 questions_%index%
+	bubble_size=extrasmall
+&custom_row
+&custom_answer_sheet
+?empty_line=space	
+	height=20
+&block
+&container
+?container=explanation
+	columns_count=1
+?block=asd
+	column=1
+?content=* Write Corrent Option # Darken Circle if question not attempted
+	font_size=8
+	font_style=bold
+&block
+&container
+?container=123
+	columns_count=1
+?block=df
+	column=1
+	border=square
+	is_clipped=true
+?content=Candidate's Signature (in running hand)
+	align=right
+	font_size=8
+?content=उम्मीदवार के हस्ताक्षर (दौड़ते हाथ में)
+	align=right
+	font_style=bold
+	font_size=8
+&block
+&container
+?container=
+	columns_count=1
+?block=all
+	is_clipped=true
+	border=square
+	column=1
+?container=all
+	columns_count=4
+?block=left1
+	column=1
+	border=none
+?content=Total correct answers
+	align=left
+	font_style=bold
+	font_size=8
+?content=(To be filled by the Evaluator)
+	align=left
+	font_style=bold
+	font_size=6
+&block
+?block=left2
+	column=2
+	border=none
+?content=  
+	content_type=Cells
+	align=center
+&block
+?block=right1
+	column=3
+	border=none
+?content=Total correct answers
+	align=left
+	font_style=bold
+	font_size=8
+?content=(To be filled by the Coordinator)
+	align=left
+	font_style=bold
+	font_size=6
+&block
+?block=right2
+	column=4
+	border=none
+?content=  
+	content_type=Cells
+	align=center
+&block
+?empty_line=s
+	height=1
+&block
+&container
+&block
+&container
+?container=signatures
+	columns_count=1
+?block=asdas
+	column=1
+	is_clipped=true
+?table=signature_table
+	answers_count=4
+	table_type=equalcells
+?table_header=header
+	font_style=bold
+?content=
+?content=Invigilator
+	font_style=bold
+	font_size=8
+	align=center
+?content=Evaluator
+	font_style=bold
+	font_size=8
+	align=center
+?content=Coordinator
+	font_style=bold
+	font_size=8
+	align=center
+?content=Observer
+	font_style=bold
+	font_size=8
+	align=center
+&table_header
+?content=Signature
+	font_style=bold
+	font_size=8
+	align=center
+?content=Identification No.
+	font_style=bold
+	font_size=8
+	align=center
+&table
+&block
+&container
